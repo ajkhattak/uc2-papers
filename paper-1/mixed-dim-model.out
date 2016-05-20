@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Motivation and Modeling Approach}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Motivation: Fine-scale Simulation Study}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Arcos Framework and Refactoring Strategy}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Coupling and Mixed-Dimensional Modeling Approach}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Numerical Tests and Discussions}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Spinup Process}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Time Convergence Studies : 75 polygons}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.3}{Speedup Study}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 10
+\BOOKMARK [1][-]{section.6}{Future Directions}{}% 11
+\BOOKMARK [1][-]{section.7}{Bibliography styles}{}% 12
