@@ -16,24 +16,77 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
-\bibstyle{elsarticle-num}
-\Newlabel{mytitlenote}{1}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Motivation and Modeling Approach}{6}{section.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Motivation: Fine-scale Simulation Study}{6}{subsection.2.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Arcos Framework and Refactoring Strategy}{6}{section.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Coupling and Mixed-Dimensional Modeling Approach}{7}{subsection.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Schematic of the loosely coupled scheme for our mixed-dimensional model.}}{7}{figure.1}}
-\newlabel{coupling-schematic}{{1}{7}{Schematic of the loosely coupled scheme for our mixed-dimensional model}{figure.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A customized hierarchical structure of the process kernels. Blue blocks highlights independent process models; Light blue blocks strongly couple indepdent process kernels; Orange blocks represent weak couplers.}}{8}{figure.2}}
-\newlabel{pk-tree}{{2}{8}{A customized hierarchical structure of the process kernels. Blue blocks highlights independent process models; Light blue blocks strongly couple indepdent process kernels; Orange blocks represent weak couplers}{figure.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Numerical Tests and Discussions}{9}{section.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Spinup Process}{11}{subsection.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Time Convergence Studies : 75 polygons}{12}{subsection.4.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot.}}{12}{figure.3}}
-\newlabel{surf-location}{{3}{12}{An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot}{figure.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Speedup Study}{13}{subsection.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{13}{section.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Future Directions}{13}{section.6}}
-\bibdata{mybibfile}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Bibliography styles}{14}{section.7}}
+\citation{brown1997circum,jorgenson2001permafrost}
+\citation{tarnocai2009soil,turner2007arctic,hansen1999giss,assessment2004impacts}
+\citation{osterkamp1983response,walvoord2007increased,lyon2009estimation,pachauri2014climate}
+\citation{painter2013modeling}
+\citation{harlan1973analysis,guymon1974coupled,taylor1978model}
+\citation{takata2003development,nicolsky2007improved,mckenzie2007groundwater}
+\citation{bense2009evolution,lawrence2012simulation,koven2013analysis,karra2014three}
+\citation{kurylyk2014climate}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}}
+\citation{dall2011robust}
+\citation{ecoon2016managing,spainter2016integrated}
+\citation{moulton2012high}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Motivation: Fine-scale Simulation Study}{6}{section.2}}
+\newlabel{motivation}{{2}{6}{Motivation: Fine-scale Simulation Study}{section.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Arcos Framework}{6}{section.3}}
+\newlabel{arcos-framework}{{3}{6}{Arcos Framework}{section.3}{}}
+\citation{ecoon2016managing,moulton2012high,spainter2016integrated}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Coupling Scheme, Modeling Approach and ATS Refactoring Strategy}{7}{section.4}}
+\newlabel{mixed-dim-model}{{4}{7}{Coupling Scheme, Modeling Approach and ATS Refactoring Strategy}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Weakly Coupled Scheme}{7}{subsection.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Schematic of the loosely coupled scheme for our mixed-dimensional model. Blue represents advancement of PKs in time; Cyan shows intermediate steps for initialization of PKs within a single iteration.}}{8}{figure.1}}
+\newlabel{coupling-schematic}{{1}{8}{Schematic of the loosely coupled scheme for our mixed-dimensional model. Blue represents advancement of PKs in time; Cyan shows intermediate steps for initialization of PKs within a single iteration}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Mixed-Dimensional Modeling Approach}{8}{subsection.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}ATS Refactoring Strategy}{9}{subsection.4.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A customized hierarchical structure of the process kernels. Blue blocks highlights independent process models; Light blue blocks strongly coupled independent process kernels; Orange blocks represent weak couplers.}}{10}{figure.2}}
+\newlabel{pk-tree}{{2}{10}{A customized hierarchical structure of the process kernels. Blue blocks highlights independent process models; Light blue blocks strongly coupled independent process kernels; Orange blocks represent weak couplers}{figure.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Numerical Tests and Discussions}{11}{section.5}}
+\newlabel{numerical-tests}{{5}{11}{Numerical Tests and Discussions}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Spinup Process}{12}{subsection.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Time Convergence Studies : 75 polygons}{13}{subsection.5.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot.}}{14}{figure.3}}
+\newlabel{surf-location}{{3}{14}{An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Speedup Study}{14}{subsection.5.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A comparison of the computational time taken by the mixed-dimensional and 3D models.}}{15}{figure.4}}
+\newlabel{3d-lcs-speed}{{4}{15}{A comparison of the computational time taken by the mixed-dimensional and 3D models}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Projection of Permafrost Evolution to 2100}{15}{subsection.5.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions and Future Work}{15}{section.6}}
+\newlabel{conclusion}{{6}{15}{Conclusions and Future Work}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Closing Remarks}{15}{subsection.6.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces An illustration of the speedup study of a simulation with 75-polygon cluster.}}{16}{figure.5}}
+\newlabel{lcs-speed}{{5}{16}{An illustration of the speedup study of a simulation with 75-polygon cluster}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Future Directions}{17}{subsection.6.2}}
+\citation{jorgenson2006abrupt,liljedahl2012ice}
+\citation{rowland2010arctic}
+\bibdata{reference}
+\bibcite{assessment2004impacts}{{1}{2004}{{Assessment}}{{}}}
+\bibcite{bense2009evolution}{{2}{2009}{{Bense et~al.}}{{Bense, Ferguson \& Kooi}}}
+\bibcite{brown1997circum}{{3}{1997}{{Brown et~al.}}{{Brown, Ferrians~Jr, Heginbottom \& Melnikov}}}
+\bibcite{ecoon2016managing}{{4}{2016}{{Coon et~al.}}{{Coon, Moulton \& Painter}}}
+\bibcite{dall2011robust}{{5}{2011}{{Dall'Amico et~al.}}{{Dall'Amico, Endrizzi, Gruber \& Rigon}}}
+\bibcite{guymon1974coupled}{{6}{1974}{{Guymon \& Luthin}}{{}}}
+\bibcite{hansen1999giss}{{7}{1999}{{Hansen et~al.}}{{Hansen, Ruedy, Glascoe \& Sato}}}
+\bibcite{harlan1973analysis}{{8}{1973}{{Harlan}}{{}}}
+\bibcite{jorgenson2001permafrost}{{9}{2001}{{Jorgenson et~al.}}{{Jorgenson, Racine, Walters \& Osterkamp}}}
+\bibcite{jorgenson2006abrupt}{{10}{2006}{{Jorgenson et~al.}}{{Jorgenson, Shur \& Pullman}}}
+\bibcite{karra2014three}{{11}{2014}{{Karra et~al.}}{{Karra, Painter \& Lichtner}}}
+\bibcite{koven2013analysis}{{12}{2013}{{Koven et~al.}}{{Koven, Riley \& Stern}}}
+\bibcite{kurylyk2014climate}{{13}{2014}{{Kurylyk et~al.}}{{Kurylyk, MacQuarrie \& McKenzie}}}
+\bibcite{lawrence2012simulation}{{14}{2012}{{Lawrence et~al.}}{{Lawrence, Slater \& Swenson}}}
+\bibcite{liljedahl2012ice}{{15}{2012}{{Liljedahl et~al.}}{{Liljedahl, Hinzman \& Schulla}}}
+\bibcite{lyon2009estimation}{{16}{2009}{{Lyon et~al.}}{{Lyon, Destouni, Giesler, Humborg, M{\"o}rth, Seibert, Karlsson \& Troch}}}
+\bibcite{mckenzie2007groundwater}{{17}{2007}{{McKenzie et~al.}}{{McKenzie, Voss \& Siegel}}}
+\bibcite{moulton2012high}{{18}{2012}{{Moulton et~al.}}{{Moulton, Berndt, Garimella, Prichett-Sheats, Hammond, Day \& Meza}}}
+\bibcite{nicolsky2007improved}{{19}{2007}{{Nicolsky et~al.}}{{Nicolsky, Romanovsky, Alexeev \& Lawrence}}}
+\bibcite{osterkamp1983response}{{20}{1983}{{Osterkamp}}{{}}}
+\bibcite{pachauri2014climate}{{21}{2014}{{Pachauri et~al.}}{{Pachauri, Allen, Barros, Broome, Cramer, Christ, Church, Clarke, Dahe, Dasgupta et~al.}}}
+\bibcite{painter2013modeling}{{22}{2013}{{Painter et~al.}}{{Painter, Moulton \& Wilson}}}
+\bibcite{spainter2016integrated}{{23}{2016}{{Painter et~al.}}{{Painter, Coon, Atchley, Markus, Rao, Moulton \& Daniil}}}
+\bibcite{rowland2010arctic}{{24}{2010}{{Rowland et~al.}}{{Rowland, Jones, Altmann, Bryan, Crosby, Hinzman, Kane, Lawrence, Mancino, Marsh, McNamara, Romanvosky, Toniolo, Travis, Trochim, Wilson \& Geernaert}}}
+\bibcite{takata2003development}{{25}{2003}{{Takata et~al.}}{{Takata, Emori \& Watanabe}}}
+\bibcite{tarnocai2009soil}{{26}{2009}{{Tarnocai et~al.}}{{Tarnocai, Canadell, Schuur, Kuhry, Mazhitova \& Zimov}}}
+\bibcite{taylor1978model}{{27}{1978}{{Taylor \& Luthin}}{{}}}
+\bibcite{turner2007arctic}{{28}{2007}{{Turner et~al.}}{{Turner, Overland \& Walsh}}}
+\bibcite{walvoord2007increased}{{29}{2007}{{Walvoord \& Striegl}}{{}}}
