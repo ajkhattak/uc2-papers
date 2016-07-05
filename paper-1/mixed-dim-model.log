@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2016 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUL 2016 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,37 +234,375 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip47
 )
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box31
+\UL@hyphenbox=\box32
+\UL@skip=\skip48
+\UL@hook=\toks18
+\UL@height=\dimen118
+\UL@pe=\count112
+\UL@pixel=\dimen119
+\ULC@box=\box33
+Package: ulem 2012/05/18
+\ULdepth=\dimen120
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count113
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen121
+\pgfutil@tempdimb=\dimen122
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen123
+\pgf@y=\dimen124
+\pgf@xa=\dimen125
+\pgf@ya=\dimen126
+\pgf@xb=\dimen127
+\pgf@yb=\dimen128
+\pgf@xc=\dimen129
+\pgf@yc=\dimen130
+\w@pgf@writea=\write4
+\r@pgf@reada=\read1
+\c@pgf@counta=\count114
+\c@pgf@countb=\count115
+\c@pgf@countc=\count116
+\c@pgf@countd=\count117
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count118
+\pgfsyssoftpath@bigbuffer@items=\count119
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen131
+\pgfmath@count=\count120
+\pgfmath@box=\box35
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count121
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen132
+\pgf@picmaxx=\dimen133
+\pgf@picminy=\dimen134
+\pgf@picmaxy=\dimen135
+\pgf@pathminx=\dimen136
+\pgf@pathmaxx=\dimen137
+\pgf@pathminy=\dimen138
+\pgf@pathmaxy=\dimen139
+\pgf@xx=\dimen140
+\pgf@xy=\dimen141
+\pgf@yx=\dimen142
+\pgf@yy=\dimen143
+\pgf@zx=\dimen144
+\pgf@zy=\dimen145
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen146
+\pgf@path@lasty=\dimen147
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen148
+\pgf@shorten@start@additional=\dimen149
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count122
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen150
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen151
+\pgf@pt@y=\dimen152
+\pgf@pt@temp=\dimen153
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen154
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen155
+\pgf@sys@shading@range@num=\count123
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box39
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box40
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen156
+\pgf@nodesepend=\dimen157
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen158
+\pgffor@skip=\dimen159
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count124
+\pgfplotmarksize=\dimen160
+)
+\tikz@lastx=\dimen161
+\tikz@lasty=\dimen162
+\tikz@lastxsaved=\dimen163
+\tikz@lastysaved=\dimen164
+\tikzleveldistance=\dimen165
+\tikzsiblingdistance=\dimen166
+\tikz@figbox=\box41
+\tikz@figbox@bg=\box42
+\tikz@tempbox=\box43
+\tikz@tempbox@bg=\box44
+\tikztreelevel=\count125
+\tikznumberofchildren=\count126
+\tikznumberofcurrentchild=\count127
+\tikz@fig@count=\count128
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count129
+\pgfmatrixcurrentcolumn=\count130
+\pgf@matrix@numberofcolumns=\count131
+)
+\tikz@expandcount=\count132
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count133
+\calc@Bcount=\count134
+\calc@Adimen=\dimen167
+\calc@Bdimen=\dimen168
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count135
+\calc@Cskip=\skip51
+)
+\c@@todonotes@numberoftodonotes=\count136
+)
 (./mixed-dim-model.aux)
 \openout1 = `mixed-dim-model.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen118
-\scratchbox=\box31
-\nofMPsegments=\count113
-\nofMParguments=\count114
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen119
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count137
+\scratchdimen=\dimen169
+\scratchbox=\box45
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen170
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -280,8 +618,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 40.
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring OFF on input line 41.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -289,67 +627,279 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count118
+\c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./mixed-dim-model.out) (./mixed-dim-model.out)
-\@outlinefile=\write4
-\openout4 = `mixed-dim-model.out'.
-
- [1
+\@outlinefile=\write5
+\openout5 = `mixed-dim-model.out'.
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+ABD: EveryShipout initializing macros [1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 81.
+(Font)              <7> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 81.
- [3] [4]
-Overfull \hbox (7.55496pt too wide) in paragraph at lines 94--96
-\OT1/cmr/m/n/10 source state-of-the-art soft-ware Arc-tic Ter-res-trial Sim-u-l
-a-tor (ATS)  [[], []] (Painter
+(Font)              <5> on input line 80.
+ [2] [3] [4] [5]
+Overfull \hbox (1.82742pt too wide) in paragraph at lines 110--110
+[]\OT1/cmr/bx/n/10 Modeling Ap-proach, Cou-pling Scheme, and ATS Refac-tor-ing 
+Strat-
  []
 
-[5] [6] [7]
-<figures/shematic-couplingscheme1.png, id=161, 373.395pt x 233.1912pt>
-File: figures/shematic-couplingscheme1.png Graphic file (type png)
+[6] <figures/mixed-dim-model.png, id=162, 391.2216pt x 262.581pt>
+File: figures/mixed-dim-model.png Graphic file (type png)
 
-<use figures/shematic-couplingscheme1.png>
-Package pdftex.def Info: figures/shematic-couplingscheme1.png used on input lin
-e 118.
-(pdftex.def)             Requested size: 312.99445pt x 184.94489pt.
- [8 <./figures/shematic-couplingscheme1.png>] <figures/process-tree1.png, id=17
-3, 346.4142pt x 325.215pt>
+<use figures/mixed-dim-model.png>
+Package pdftex.def Info: figures/mixed-dim-model.png used on input line 118.
+(pdftex.def)             Requested size: 284.52681pt x 213.39459pt.
+
+<figures/process-tree1.png, id=164, 346.4142pt x 325.215pt>
 File: figures/process-tree1.png Graphic file (type png)
 
 <use figures/process-tree1.png>
-Package pdftex.def Info: figures/process-tree1.png used on input line 129.
-(pdftex.def)             Requested size: 312.98564pt x 270.3204pt.
- [9] [10 <./figures/process-tree1.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 150.
+Package pdftex.def Info: figures/process-tree1.png used on input line 126.
+(pdftex.def)             Requested size: 312.98564pt x 213.40196pt.
+ [7 <./figures/mixed-dim-model.png>] [8 <./figures/process-tree1.png>]
+<figures/coupling-scheme.png, id=182, 621.522pt x 382.5492pt>
+File: figures/coupling-scheme.png Graphic file (type png)
 
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 150.
-
-Overfull \hbox (7.38945pt too wide) in paragraph at lines 150--153
-[]\OT1/cmr/m/n/10 Problem Test 1 (Sub-sur-face Flow): We con-sider mul-ti-ple s
-ub-sur-face columns
- []
-
-[11] [12] [13] <figures/lobster75-3d.png, id=203, 384.4764pt x 221.1462pt>
+<use figures/coupling-scheme.png>
+Package pdftex.def Info: figures/coupling-scheme.png used on input line 140.
+(pdftex.def)             Requested size: 312.98889pt x 184.94073pt.
+ [9 <./figures/coupling-scheme.png>]
+<figures/lobster75-3d.png, id=192, 384.4764pt x 221.1462pt>
 File: figures/lobster75-3d.png Graphic file (type png)
 
 <use figures/lobster75-3d.png>
-Package pdftex.def Info: figures/lobster75-3d.png used on input line 194.
+Package pdftex.def Info: figures/lobster75-3d.png used on input line 163.
 (pdftex.def)             Requested size: 312.9847pt x 184.94492pt.
- [14 <./figures/lobster75-3d.png>]
+ [10] [11 <./figures/lobster75-3d.png>]
+Package epstopdf Info: Source file: <figures/comparison/regular/ss-sat/comp-sat
+-loc1-cycle0020.eps>
+(epstopdf)                    date: 2016-06-30 18:26:30
+(epstopdf)                    size: 29885 bytes
+(epstopdf)             Output file: <figures/comparison/regular/ss-sat/comp-sat
+-loc1-cycle0020-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-02 00:17:46
+(epstopdf)                    size: 25202 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
+/ss-sat/comp-sat-loc1-cycle0020-eps-converted-to.pdf figures/comparison/regular
+/ss-sat/comp-sat-loc1-cycle0020.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted-to.pdf
+, id=214, 397.485pt x 433.62pt>
+File: figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted-to
+.pdf>
+Package pdftex.def Info: figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0
+020-eps-converted-to.pdf used on input line 185.
+(pdftex.def)             Requested size: 170.72113pt x 213.39536pt.
+Package epstopdf Info: Source file: <figures/comparison/regular/ss-sat/comp-sat
+-loc5-cycle0020.eps>
+(epstopdf)                    date: 2016-06-30 18:25:29
+(epstopdf)                    size: 30393 bytes
+(epstopdf)             Output file: <figures/comparison/regular/ss-sat/comp-sat
+-loc5-cycle0020-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-02 00:17:47
+(epstopdf)                    size: 25320 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
+/ss-sat/comp-sat-loc5-cycle0020-eps-converted-to.pdf figures/comparison/regular
+/ss-sat/comp-sat-loc5-cycle0020.eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-converted-to.pdf
+, id=215, 397.485pt x 433.62pt>
+File: figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-converted-to
+.pdf>
+Package pdftex.def Info: figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0
+020-eps-converted-to.pdf used on input line 186.
+(pdftex.def)             Requested size: 170.72113pt x 213.39536pt.
+Package epstopdf Info: Source file: <figures/comparison/regular/ss-temp/comp-te
+mp-loc1-cycle0020.eps>
+(epstopdf)                    date: 2016-06-30 18:27:38
+(epstopdf)                    size: 29350 bytes
+(epstopdf)             Output file: <figures/comparison/regular/ss-temp/comp-te
+mp-loc1-cycle0020-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-02 00:17:47
+(epstopdf)                    size: 26343 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
+/ss-temp/comp-temp-loc1-cycle0020-eps-converted-to.pdf figures/comparison/regul
+ar/ss-temp/comp-temp-loc1-cycle0020.eps>
+(epstopdf)             \includegraphics on input line 194.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020-eps-converted-to.p
+df, id=216, 397.485pt x 433.62pt>
+File: figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020-eps-converted
+-to.pdf Graphic file (type pdf)
+
+<use figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020-eps-converted-
+to.pdf>
+Package pdftex.def Info: figures/comparison/regular/ss-temp/comp-temp-loc1-cycl
+e0020-eps-converted-to.pdf used on input line 194.
+(pdftex.def)             Requested size: 170.72113pt x 213.39536pt.
+Package epstopdf Info: Source file: <figures/comparison/regular/ss-temp/comp-te
+mp-loc5-cycle0020.eps>
+(epstopdf)                    date: 2016-07-01 12:38:06
+(epstopdf)                    size: 29358 bytes
+(epstopdf)             Output file: <figures/comparison/regular/ss-temp/comp-te
+mp-loc5-cycle0020-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-02 00:17:48
+(epstopdf)                    size: 26354 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
+/ss-temp/comp-temp-loc5-cycle0020-eps-converted-to.pdf figures/comparison/regul
+ar/ss-temp/comp-temp-loc5-cycle0020.eps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020-eps-converted-to.p
+df, id=217, 397.485pt x 433.62pt>
+File: figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020-eps-converted
+-to.pdf Graphic file (type pdf)
+
+<use figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020-eps-converted-
+to.pdf>
+Package pdftex.def Info: figures/comparison/regular/ss-temp/comp-temp-loc5-cycl
+e0020-eps-converted-to.pdf used on input line 195.
+(pdftex.def)             Requested size: 170.72113pt x 213.39536pt.
+Package epstopdf Info: Source file: <figures/comparison/regular/ponded-depth/co
+mp-pd-location1.eps>
+(epstopdf)                    date: 2016-06-30 19:24:51
+(epstopdf)                    size: 32337 bytes
+(epstopdf)             Output file: <figures/comparison/regular/ponded-depth/co
+mp-pd-location1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-02 00:17:48
+(epstopdf)                    size: 22075 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
+/ponded-depth/comp-pd-location1-eps-converted-to.pdf figures/comparison/regular
+/ponded-depth/comp-pd-location1.eps>
+(epstopdf)             \includegraphics on input line 202.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/regular/ponded-depth/comp-pd-location1-eps-converted-to.pdf
+, id=218, 578.16pt x 433.62pt>
+File: figures/comparison/regular/ponded-depth/comp-pd-location1-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use figures/comparison/regular/ponded-depth/comp-pd-location1-eps-converted-to
+.pdf>
+Package pdftex.def Info: figures/comparison/regular/ponded-depth/comp-pd-locati
+on1-eps-converted-to.pdf used on input line 202.
+(pdftex.def)             Requested size: 170.71451pt x 213.39536pt.
+Package epstopdf Info: Source file: <figures/comparison/regular/ponded-depth/co
+mp-pd-location5.eps>
+(epstopdf)                    date: 2016-06-30 19:23:36
+(epstopdf)                    size: 33563 bytes
+(epstopdf)             Output file: <figures/comparison/regular/ponded-depth/co
+mp-pd-location5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-02 00:17:48
+(epstopdf)                    size: 22483 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
+/ponded-depth/comp-pd-location5-eps-converted-to.pdf figures/comparison/regular
+/ponded-depth/comp-pd-location5.eps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/regular/ponded-depth/comp-pd-location5-eps-converted-to.pdf
+, id=219, 578.16pt x 433.62pt>
+File: figures/comparison/regular/ponded-depth/comp-pd-location5-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use figures/comparison/regular/ponded-depth/comp-pd-location5-eps-converted-to
+.pdf>
+Package pdftex.def Info: figures/comparison/regular/ponded-depth/comp-pd-locati
+on5-eps-converted-to.pdf used on input line 203.
+(pdftex.def)             Requested size: 170.71451pt x 213.39536pt.
+Package epstopdf Info: Source file: <figures/comparison/regular/error.eps>
+(epstopdf)                    date: 2016-07-01 16:05:57
+(epstopdf)                    size: 31686 bytes
+(epstopdf)             Output file: <figures/comparison/regular/error-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2016-07-04 00:29:19
+(epstopdf)                    size: 20326 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
+/error-eps-converted-to.pdf figures/comparison/regular/error.eps>
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/regular/error-eps-converted-to.pdf, id=220, 578.16pt x 433.
+62pt>
+File: figures/comparison/regular/error-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use figures/comparison/regular/error-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comparison/regular/error-eps-converted-to.pdf 
+used on input line 210.
+(pdftex.def)             Requested size: 284.52713pt x 156.49345pt.
+Package epstopdf Info: Source file: <figures/comparison/dist/Elev-grad1.5m/erro
+r.eps>
+(epstopdf)                    date: 2016-07-01 16:00:25
+(epstopdf)                    size: 31706 bytes
+(epstopdf)             Output file: <figures/comparison/dist/Elev-grad1.5m/erro
+r-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-04 00:21:19
+(epstopdf)                    size: 20376 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/dist/El
+ev-grad1.5m/error-eps-converted-to.pdf figures/comparison/dist/Elev-grad1.5m/er
+ror.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf, id=221, 578.
+16pt x 433.62pt>
+File: figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comparison/dist/Elev-grad1.5m/error-eps-conver
+ted-to.pdf used on input line 211.
+(pdftex.def)             Requested size: 284.52713pt x 156.49345pt.
+Package epstopdf Info: Source file: <figures/comparison/dist/Elev-grad2.5m/erro
+r.eps>
+(epstopdf)                    date: 2016-07-01 15:59:31
+(epstopdf)                    size: 31620 bytes
+(epstopdf)             Output file: <figures/comparison/dist/Elev-grad2.5m/erro
+r-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-04 00:26:43
+(epstopdf)                    size: 20381 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/dist/El
+ev-grad2.5m/error-eps-converted-to.pdf figures/comparison/dist/Elev-grad2.5m/er
+ror.eps>
+(epstopdf)             \includegraphics on input line 212.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf, id=222, 578.
+16pt x 433.62pt>
+File: figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comparison/dist/Elev-grad2.5m/error-eps-conver
+ted-to.pdf used on input line 212.
+(pdftex.def)             Requested size: 284.52713pt x 156.49345pt.
+ [12 <./figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted
+-to.pdf> <./figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-conve
+rted-to.pdf>] [13 <./figures/comparison/regular/ss-temp/comp-temp-loc1-cycle002
+0-eps-converted-to.pdf> <./figures/comparison/regular/ss-temp/comp-temp-loc5-cy
+cle0020-eps-converted-to.pdf> <./figures/comparison/regular/ponded-depth/comp-p
+d-location1-eps-converted-to.pdf> <./figures/comparison/regular/ponded-depth/co
+mp-pd-location5-eps-converted-to.pdf>] [14 <./figures/comparison/regular/error-
+eps-converted-to.pdf> <./figures/comparison/dist/Elev-grad1.5m/error-eps-conver
+ted-to.pdf> <./figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf
+>]
 Package epstopdf Info: Source file: <figures/compare3d-lcs-speed.eps>
 (epstopdf)                    date: 2016-05-23 20:57:33
 (epstopdf)                    size: 29376 bytes
@@ -359,61 +909,87 @@ to.pdf>
 (epstopdf)                    size: 19525 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/compare3d-lcs-spee
 d-eps-converted-to.pdf figures/compare3d-lcs-speed.eps>
-(epstopdf)             \includegraphics on input line 205.
+(epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare3d-lcs-speed-eps-converted-to.pdf, id=213, 578.16pt x 433.62pt>
+<figures/compare3d-lcs-speed-eps-converted-to.pdf, id=600, 578.16pt x 433.62pt>
 File: figures/compare3d-lcs-speed-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/compare3d-lcs-speed-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare3d-lcs-speed-eps-converted-to.pdf used 
-on input line 205.
+on input line 226.
 (pdftex.def)             Requested size: 284.52713pt x 184.9444pt.
-Package epstopdf Info: Source file: <figures/speedup-lcs.eps>
-(epstopdf)                    date: 2016-05-23 20:57:27
-(epstopdf)                    size: 23109 bytes
-(epstopdf)             Output file: <figures/speedup-lcs-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-05-23 23:08:07
-(epstopdf)                    size: 17220 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/speedup-lcs-eps-co
-nverted-to.pdf figures/speedup-lcs.eps>
-(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Source file: <figures/speedup-lcs-lobster.eps>
+(epstopdf)                    date: 2016-07-01 17:13:38
+(epstopdf)                    size: 23093 bytes
+(epstopdf)             Output file: <figures/speedup-lcs-lobster-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-07-01 17:15:06
+(epstopdf)                    size: 17777 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/speedup-lcs-lobste
+r-eps-converted-to.pdf figures/speedup-lcs-lobster.eps>
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/speedup-lcs-eps-converted-to.pdf, id=214, 578.16pt x 433.62pt>
-File: figures/speedup-lcs-eps-converted-to.pdf Graphic file (type pdf)
+<figures/speedup-lcs-lobster-eps-converted-to.pdf, id=601, 578.16pt x 433.62pt>
+File: figures/speedup-lcs-lobster-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/speedup-lcs-lobster-eps-converted-to.pdf>
+Package pdftex.def Info: figures/speedup-lcs-lobster-eps-converted-to.pdf used 
+on input line 234.
+(pdftex.def)             Requested size: 284.52713pt x 184.9444pt.
+Package epstopdf Info: Source file: <figures/speedup-lcs-barrow.eps>
+(epstopdf)                    date: 2016-07-01 17:17:27
+(epstopdf)                    size: 22952 bytes
+(epstopdf)             Output file: <figures/speedup-lcs-barrow-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2016-07-01 17:18:06
+(epstopdf)                    size: 17019 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/speedup-lcs-barrow
+-eps-converted-to.pdf figures/speedup-lcs-barrow.eps>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
 
-<use figures/speedup-lcs-eps-converted-to.pdf>
-Package pdftex.def Info: figures/speedup-lcs-eps-converted-to.pdf used on input
- line 213.
+<figures/speedup-lcs-barrow-eps-converted-to.pdf, id=602, 578.16pt x 433.62pt>
+File: figures/speedup-lcs-barrow-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/speedup-lcs-barrow-eps-converted-to.pdf>
+Package pdftex.def Info: figures/speedup-lcs-barrow-eps-converted-to.pdf used o
+n input line 235.
 (pdftex.def)             Requested size: 284.52713pt x 184.9444pt.
  [15 <./figures/compare3d-lcs-speed-eps-converted-to.pdf>] [16 <./figures/speed
-up-lcs-eps-converted-to.pdf>]
-[17] (./mixed-dim-model.bbl [18] [19] [20] [21])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
+up-lcs-lobster-eps-converted-to.pdf> <./figures/speedup-lcs-barrow-eps-converte
+d-to.pdf>] [17] [18]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 275.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 275.
+
+Overfull \hbox (7.38945pt too wide) in paragraph at lines 275--278
+[]\OT1/cmr/m/n/10 Problem Test 1 (Sub-sur-face Flow): We con-sider mul-ti-ple s
+ub-sur-face columns
+ []
+
+[19] (./mixed-dim-model.bbl [20] [21] [22] [23]) [24]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
  (./mixed-dim-model.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
-
-
-Package rerunfilecheck Warning: File `mixed-dim-model.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mixed-dim-model.out':
-(rerunfilecheck)             Before: 06C24AAD1097E8D9DC4D1EED666C6D7D;1039
-(rerunfilecheck)             After:  5A12476BF96FF7FE5807E05CCCEB9BE3;1063.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
+Package rerunfilecheck Info: File `mixed-dim-model.out' has not changed.
+(rerunfilecheck)             Checksum: DB544755D001BFED2505E6D6093CF9F8;985.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 299.
  ) 
 Here is how much of TeX's memory you used:
- 6059 strings out of 493089
- 90030 string characters out of 6134842
- 178553 words of memory out of 5000000
- 9422 multiletter control sequences out of 15000+600000
- 6233 words of font info for 22 fonts, out of 8000000 for 9000
+ 16503 strings out of 493089
+ 314050 string characters out of 6134842
+ 377820 words of memory out of 5000000
+ 19605 multiletter control sequences out of 15000+600000
+ 6339 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,5n,30p,1806b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,7n,56p,1811b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -424,10 +1000,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on mixed-dim-model.pdf (22 pages, 554399 bytes).
+Output written on mixed-dim-model.pdf (24 pages, 916582 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 819 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,51 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mixed-dim-model.aux
-The style file: model5-names.bst
+The style file: model1-num-names.bst
 Database file #1: reference.bib
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty journal in moulton2012high
 Warning--empty journal in pachauri2014climate
-You've used 29 entries,
-            3390 wiz_defined-function locations,
-            860 strings with 11607 characters,
-and the built_in function-call counts, 24025 in all, are:
-= -- 1761
-> -- 1302
-< -- 10
-+ -- 1228
-- -- 363
-* -- 2616
-:= -- 3064
-add.period$ -- 86
-call.type$ -- 29
-change.case$ -- 268
-chr.to.int$ -- 29
-cite$ -- 31
-duplicate$ -- 1591
-empty$ -- 1506
-format.name$ -- 450
-if$ -- 4432
+Warning--empty journal in moulton2012high
+You've used 32 entries,
+            2910 wiz_defined-function locations,
+            817 strings with 12059 characters,
+and the built_in function-call counts, 22363 in all, are:
+= -- 1611
+> -- 1203
+< -- 9
++ -- 459
+- -- 417
+* -- 2872
+:= -- 3364
+add.period$ -- 32
+call.type$ -- 32
+change.case$ -- 296
+chr.to.int$ -- 32
+cite$ -- 34
+duplicate$ -- 1407
+empty$ -- 1316
+format.name$ -- 513
+if$ -- 3955
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 314
-newline$ -- 159
-num.names$ -- 116
-pop$ -- 870
+missing$ -- 353
+newline$ -- 171
+num.names$ -- 128
+pop$ -- 381
 preamble$ -- 1
-purify$ -- 236
+purify$ -- 297
 quote$ -- 0
-skip$ -- 695
+skip$ -- 361
 stack$ -- 0
-substring$ -- 832
-swap$ -- 1227
-text.length$ -- 4
+substring$ -- 971
+swap$ -- 1287
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 258
+type$ -- 285
 warning$ -- 2
-while$ -- 128
+while$ -- 142
 width$ -- 0
-write$ -- 415
+write$ -- 427
 (There were 2 warnings)

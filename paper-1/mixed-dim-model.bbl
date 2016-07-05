@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{32}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -11,277 +11,295 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Book
+\bibitem[{Brown et~al.(1997)Brown, Ferrians~Jr, Heginbottom, and
+  Melnikov}]{brown1997circum}
+\bibinfo{author}{J.~Brown}, \bibinfo{author}{O.~Ferrians~Jr},
+  \bibinfo{author}{J.~Heginbottom}, \bibinfo{author}{E.~Melnikov},
+  \bibinfo{title}{Circum-Arctic map of permafrost and ground-ice conditions},
+  \bibinfo{number}{45}, \bibinfo{year}{1997}.
+%Type = Article
+\bibitem[{Jorgenson et~al.(2001)Jorgenson, Racine, Walters, and
+  Osterkamp}]{jorgenson2001permafrost}
+\bibinfo{author}{M.~T. Jorgenson}, \bibinfo{author}{C.~H. Racine},
+  \bibinfo{author}{J.~C. Walters}, \bibinfo{author}{T.~E. Osterkamp},
+\newblock \bibinfo{title}{Permafrost degradation and ecological changes
+  associated with a warmingclimate in central alaska},
+\newblock \bibinfo{journal}{Climatic change} \bibinfo{volume}{48}
+  (\bibinfo{year}{2001}) \bibinfo{pages}{551--579}.
+%Type = Article
+\bibitem[{Tarnocai et~al.(2009)Tarnocai, Canadell, Schuur, Kuhry, Mazhitova,
+  and Zimov}]{tarnocai2009soil}
+\bibinfo{author}{C.~Tarnocai}, \bibinfo{author}{J.~Canadell},
+  \bibinfo{author}{E.~Schuur}, \bibinfo{author}{P.~Kuhry},
+  \bibinfo{author}{G.~Mazhitova}, \bibinfo{author}{S.~Zimov},
+\newblock \bibinfo{title}{Soil organic carbon pools in the northern circumpolar
+  permafrost region},
+\newblock \bibinfo{journal}{Global biogeochemical cycles} \bibinfo{volume}{23}
+  (\bibinfo{year}{2009}).
+%Type = Article
+\bibitem[{Turner et~al.(2007)Turner, Overland, and Walsh}]{turner2007arctic}
+\bibinfo{author}{J.~Turner}, \bibinfo{author}{J.~E. Overland},
+  \bibinfo{author}{J.~E. Walsh},
+\newblock \bibinfo{title}{An arctic and antarctic perspective on recent climate
+  change},
+\newblock \bibinfo{journal}{International Journal of Climatology}
+  \bibinfo{volume}{27} (\bibinfo{year}{2007}) \bibinfo{pages}{277--293}.
+%Type = Article
+\bibitem[{Hansen et~al.(1999)Hansen, Ruedy, Glascoe, and Sato}]{hansen1999giss}
+\bibinfo{author}{J.~Hansen}, \bibinfo{author}{R.~Ruedy},
+  \bibinfo{author}{J.~Glascoe}, \bibinfo{author}{M.~Sato},
+\newblock \bibinfo{title}{Giss analysis of surface temperature change},
+\newblock \bibinfo{journal}{Journal of Geophysical Research: Atmospheres}
+  \bibinfo{volume}{104} (\bibinfo{year}{1999}) \bibinfo{pages}{30997--31022}.
 %Type = Article
 \bibitem[{Assessment(2004)}]{assessment2004impacts}
-\bibinfo{author}{Assessment, A. C.~I.} (\bibinfo{year}{2004}).
+\bibinfo{author}{A.~C.~I. Assessment},
 \newblock \bibinfo{title}{Impacts of a warming arctic-arctic climate impact
-  assessment}.
-\newblock {\it \bibinfo{journal}{Impacts of a Warming Arctic-Arctic Climate
-  Impact Assessment, by Arctic Climate Impact Assessment, pp. 144. ISBN
-  0521617782. Cambridge, UK: Cambridge University Press, December 2004.}\/},
-  {\it \bibinfo{volume}{1}\/}.
-%Type = Article
-\bibitem[{Bense et~al.(2009)Bense, Ferguson \& Kooi}]{bense2009evolution}
-\bibinfo{author}{Bense, V.}, \bibinfo{author}{Ferguson, G.}, \&
-  \bibinfo{author}{Kooi, H.} (\bibinfo{year}{2009}).
-\newblock \bibinfo{title}{Evolution of shallow groundwater flow systems in
-  areas of degrading permafrost}.
-\newblock {\it \bibinfo{journal}{Geophysical Research Letters}\/},  {\it
-  \bibinfo{volume}{36}\/}.
-%Type = Book
-\bibitem[{Brown et~al.(1997)Brown, Ferrians~Jr, Heginbottom \&
-  Melnikov}]{brown1997circum}
-\bibinfo{author}{Brown, J.}, \bibinfo{author}{Ferrians~Jr, O.},
-  \bibinfo{author}{Heginbottom, J.}, \& \bibinfo{author}{Melnikov, E.}
-  (\bibinfo{year}{1997}).
-\newblock {\it \bibinfo{title}{Circum-Arctic map of permafrost and ground-ice
-  conditions}\/}.
-\newblock \bibinfo{number}{45}.
-%Type = Article
-\bibitem[{Coon et~al.(2016)Coon, Moulton \& Painter}]{ecoon2016managing}
-\bibinfo{author}{Coon, E.~T.}, \bibinfo{author}{Moulton, J.~D.}, \&
-  \bibinfo{author}{Painter, S.~L.} (\bibinfo{year}{2016}).
-\newblock \bibinfo{title}{Managing complexity in simulations of land surface
-  and near-surface processes}.
-\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
-  \bibinfo{volume}{78}\/}, \bibinfo{pages}{134--149}.
-%Type = Article
-\bibitem[{Dall'Amico et~al.(2011)Dall'Amico, Endrizzi, Gruber \&
-  Rigon}]{dall2011robust}
-\bibinfo{author}{Dall'Amico, M.}, \bibinfo{author}{Endrizzi, S.},
-  \bibinfo{author}{Gruber, S.}, \& \bibinfo{author}{Rigon, R.}
-  (\bibinfo{year}{2011}).
-\newblock \bibinfo{title}{A robust and energy-conserving model of freezing
-  variably-saturated soil}.
-\newblock {\it \bibinfo{journal}{The Cryosphere}\/},  {\it
-  \bibinfo{volume}{5}\/}, \bibinfo{pages}{469--484}.
-%Type = Article
-\bibitem[{Guymon \& Luthin(1974)}]{guymon1974coupled}
-\bibinfo{author}{Guymon, G.~L.}, \& \bibinfo{author}{Luthin, J.~N.}
-  (\bibinfo{year}{1974}).
-\newblock \bibinfo{title}{A coupled heat and moisture transport model for
-  arctic soils}.
-\newblock {\it \bibinfo{journal}{Water Resources Research}\/},  {\it
-  \bibinfo{volume}{10}\/}, \bibinfo{pages}{995--1001}.
-%Type = Article
-\bibitem[{Hansen et~al.(1999)Hansen, Ruedy, Glascoe \& Sato}]{hansen1999giss}
-\bibinfo{author}{Hansen, J.}, \bibinfo{author}{Ruedy, R.},
-  \bibinfo{author}{Glascoe, J.}, \& \bibinfo{author}{Sato, M.}
-  (\bibinfo{year}{1999}).
-\newblock \bibinfo{title}{Giss analysis of surface temperature change}.
-\newblock {\it \bibinfo{journal}{Journal of Geophysical Research:
-  Atmospheres}\/},  {\it \bibinfo{volume}{104}\/},
-  \bibinfo{pages}{30997--31022}.
-%Type = Article
-\bibitem[{Harlan(1973)}]{harlan1973analysis}
-\bibinfo{author}{Harlan, R.} (\bibinfo{year}{1973}).
-\newblock \bibinfo{title}{Analysis of coupled heat-fluid transport in partially
-  frozen soil}.
-\newblock {\it \bibinfo{journal}{Water Resources Research}\/},  {\it
-  \bibinfo{volume}{9}\/}, \bibinfo{pages}{1314--1323}.
-%Type = Article
-\bibitem[{Jorgenson et~al.(2001)Jorgenson, Racine, Walters \&
-  Osterkamp}]{jorgenson2001permafrost}
-\bibinfo{author}{Jorgenson, M.~T.}, \bibinfo{author}{Racine, C.~H.},
-  \bibinfo{author}{Walters, J.~C.}, \& \bibinfo{author}{Osterkamp, T.~E.}
-  (\bibinfo{year}{2001}).
-\newblock \bibinfo{title}{Permafrost degradation and ecological changes
-  associated with a warmingclimate in central alaska}.
-\newblock {\it \bibinfo{journal}{Climatic change}\/},  {\it
-  \bibinfo{volume}{48}\/}, \bibinfo{pages}{551--579}.
-%Type = Article
-\bibitem[{Jorgenson et~al.(2006)Jorgenson, Shur \&
-  Pullman}]{jorgenson2006abrupt}
-\bibinfo{author}{Jorgenson, M.~T.}, \bibinfo{author}{Shur, Y.~L.}, \&
-  \bibinfo{author}{Pullman, E.~R.} (\bibinfo{year}{2006}).
-\newblock \bibinfo{title}{Abrupt increase in permafrost degradation in arctic
-  alaska}.
-\newblock {\it \bibinfo{journal}{Geophysical Research Letters}\/},  {\it
-  \bibinfo{volume}{33}\/}.
-%Type = Article
-\bibitem[{Karra et~al.(2014)Karra, Painter \& Lichtner}]{karra2014three}
-\bibinfo{author}{Karra, S.}, \bibinfo{author}{Painter, S.}, \&
-  \bibinfo{author}{Lichtner, P.} (\bibinfo{year}{2014}).
-\newblock \bibinfo{title}{Three-phase numerical model for subsurface hydrology
-  in permafrost-affected regions}.
-\newblock {\it \bibinfo{journal}{Cryosphere Discuss}\/},  {\it
-  \bibinfo{volume}{8}\/}, \bibinfo{pages}{149--185}.
-%Type = Article
-\bibitem[{Koven et~al.(2013)Koven, Riley \& Stern}]{koven2013analysis}
-\bibinfo{author}{Koven, C.~D.}, \bibinfo{author}{Riley, W.~J.}, \&
-  \bibinfo{author}{Stern, A.} (\bibinfo{year}{2013}).
-\newblock \bibinfo{title}{Analysis of permafrost thermal dynamics and response
-  to climate change in the cmip5 earth system models}.
-\newblock {\it \bibinfo{journal}{Journal of Climate}\/},  {\it
-  \bibinfo{volume}{26}\/}, \bibinfo{pages}{1877--1900}.
-%Type = Article
-\bibitem[{Kurylyk et~al.(2014)Kurylyk, MacQuarrie \&
-  McKenzie}]{kurylyk2014climate}
-\bibinfo{author}{Kurylyk, B.~L.}, \bibinfo{author}{MacQuarrie, K.~T.}, \&
-  \bibinfo{author}{McKenzie, J.~M.} (\bibinfo{year}{2014}).
-\newblock \bibinfo{title}{Climate change impacts on groundwater and soil
-  temperatures in cold and temperate regions: Implications, mathematical
-  theory, and emerging simulation tools}.
-\newblock {\it \bibinfo{journal}{Earth-Science Reviews}\/},  {\it
-  \bibinfo{volume}{138}\/}, \bibinfo{pages}{313--334}.
-%Type = Article
-\bibitem[{Lawrence et~al.(2012)Lawrence, Slater \&
-  Swenson}]{lawrence2012simulation}
-\bibinfo{author}{Lawrence, D.~M.}, \bibinfo{author}{Slater, A.~G.}, \&
-  \bibinfo{author}{Swenson, S.~C.} (\bibinfo{year}{2012}).
-\newblock \bibinfo{title}{Simulation of present-day and future permafrost and
-  seasonally frozen ground conditions in ccsm4}.
-\newblock {\it \bibinfo{journal}{Journal of Climate}\/},  {\it
-  \bibinfo{volume}{25}\/}, \bibinfo{pages}{2207--2225}.
-%Type = Inproceedings
-\bibitem[{Liljedahl et~al.(2012)Liljedahl, Hinzman \&
-  Schulla}]{liljedahl2012ice}
-\bibinfo{author}{Liljedahl, A.}, \bibinfo{author}{Hinzman, L.}, \&
-  \bibinfo{author}{Schulla, J.} (\bibinfo{year}{2012}).
-\newblock \bibinfo{title}{Ice-wedge polygon type controls low-gradient
-  watershed-scale hydrology}.
-\newblock In {\it \bibinfo{booktitle}{Proceedings of the Tenth International
-  Conference on Permafrost}\/} (pp. \bibinfo{pages}{231--236}).
-\newblock volume~\bibinfo{volume}{1}.
-%Type = Article
-\bibitem[{Lyon et~al.(2009)Lyon, Destouni, Giesler, Humborg, M{\"o}rth,
-  Seibert, Karlsson \& Troch}]{lyon2009estimation}
-\bibinfo{author}{Lyon, S.}, \bibinfo{author}{Destouni, G.},
-  \bibinfo{author}{Giesler, R.}, \bibinfo{author}{Humborg, C.},
-  \bibinfo{author}{M{\"o}rth, C.-M.}, \bibinfo{author}{Seibert, J.},
-  \bibinfo{author}{Karlsson, J.}, \& \bibinfo{author}{Troch, P.}
-  (\bibinfo{year}{2009}).
-\newblock \bibinfo{title}{Estimation of permafrost thawing rates in a
-  sub-arctic catchment using recession flow analysis}.
-\newblock {\it \bibinfo{journal}{Hydrology and Earth System Sciences}\/},  {\it
-  \bibinfo{volume}{13}\/}, \bibinfo{pages}{595--604}.
-%Type = Article
-\bibitem[{McKenzie et~al.(2007)McKenzie, Voss \&
-  Siegel}]{mckenzie2007groundwater}
-\bibinfo{author}{McKenzie, J.~M.}, \bibinfo{author}{Voss, C.~I.}, \&
-  \bibinfo{author}{Siegel, D.~I.} (\bibinfo{year}{2007}).
-\newblock \bibinfo{title}{Groundwater flow with energy transport and water--ice
-  phase change: numerical simulations, benchmarks, and application to freezing
-  in peat bogs}.
-\newblock {\it \bibinfo{journal}{Advances in water resources}\/},  {\it
-  \bibinfo{volume}{30}\/}, \bibinfo{pages}{966--983}.
-%Type = Article
-\bibitem[{Moulton et~al.(2012)Moulton, Berndt, Garimella, Prichett-Sheats,
-  Hammond, Day \& Meza}]{moulton2012high}
-\bibinfo{author}{Moulton, J.~D.}, \bibinfo{author}{Berndt, M.},
-  \bibinfo{author}{Garimella, R.}, \bibinfo{author}{Prichett-Sheats, L.},
-  \bibinfo{author}{Hammond, G.}, \bibinfo{author}{Day, M.}, \&
-  \bibinfo{author}{Meza, J.} (\bibinfo{year}{2012}).
-\newblock \bibinfo{title}{High-level design of amanzi, the multi-process high
-  performance computing simulator, office of environmental management, united
-  states department of energy, washington dc}, .
-%Type = Article
-\bibitem[{Nicolsky et~al.(2007)Nicolsky, Romanovsky, Alexeev \&
-  Lawrence}]{nicolsky2007improved}
-\bibinfo{author}{Nicolsky, D.}, \bibinfo{author}{Romanovsky, V.},
-  \bibinfo{author}{Alexeev, V.}, \& \bibinfo{author}{Lawrence, D.}
-  (\bibinfo{year}{2007}).
-\newblock \bibinfo{title}{Improved modeling of permafrost dynamics in a gcm
-  land-surface scheme}.
-\newblock {\it \bibinfo{journal}{Geophysical research letters}\/},  {\it
-  \bibinfo{volume}{34}\/}.
+  assessment},
+\newblock \bibinfo{journal}{Impacts of a Warming Arctic-Arctic Climate Impact
+  Assessment, by Arctic Climate Impact Assessment, pp. 144. ISBN 0521617782.
+  Cambridge, UK: Cambridge University Press, December 2004.}
+  \bibinfo{volume}{1} (\bibinfo{year}{2004}).
 %Type = Inproceedings
 \bibitem[{Osterkamp(1983)}]{osterkamp1983response}
-\bibinfo{author}{Osterkamp, T.} (\bibinfo{year}{1983}).
-\newblock \bibinfo{title}{Response of alaskan permafrost to climate}.
-\newblock In {\it \bibinfo{booktitle}{Fourth International Conference on
-  Permafrost, Fairbanks, Alaska}\/} (pp. \bibinfo{pages}{17--22}).
+\bibinfo{author}{T.~Osterkamp},
+\newblock \bibinfo{title}{Response of alaskan permafrost to climate},
+\newblock in: \bibinfo{booktitle}{Fourth International Conference on
+  Permafrost, Fairbanks, Alaska}, \bibinfo{year}{1983}, pp.
+  \bibinfo{pages}{17--22}.
+%Type = Article
+\bibitem[{Walvoord and Striegl(2007)}]{walvoord2007increased}
+\bibinfo{author}{M.~A. Walvoord}, \bibinfo{author}{R.~G. Striegl},
+\newblock \bibinfo{title}{Increased groundwater to stream discharge from
+  permafrost thawing in the yukon river basin: Potential impacts on lateral
+  export of carbon and nitrogen},
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{34}
+  (\bibinfo{year}{2007}).
+%Type = Article
+\bibitem[{Lyon et~al.(2009)Lyon, Destouni, Giesler, Humborg, M{\"o}rth,
+  Seibert, Karlsson, and Troch}]{lyon2009estimation}
+\bibinfo{author}{S.~Lyon}, \bibinfo{author}{G.~Destouni},
+  \bibinfo{author}{R.~Giesler}, \bibinfo{author}{C.~Humborg},
+  \bibinfo{author}{C.-M. M{\"o}rth}, \bibinfo{author}{J.~Seibert},
+  \bibinfo{author}{J.~Karlsson}, \bibinfo{author}{P.~Troch},
+\newblock \bibinfo{title}{Estimation of permafrost thawing rates in a
+  sub-arctic catchment using recession flow analysis},
+\newblock \bibinfo{journal}{Hydrology and Earth System Sciences}
+  \bibinfo{volume}{13} (\bibinfo{year}{2009}) \bibinfo{pages}{595--604}.
 %Type = Article
 \bibitem[{Pachauri et~al.(2014)Pachauri, Allen, Barros, Broome, Cramer, Christ,
   Church, Clarke, Dahe, Dasgupta et~al.}]{pachauri2014climate}
-\bibinfo{author}{Pachauri, R.~K.}, \bibinfo{author}{Allen, M.},
-  \bibinfo{author}{Barros, V.}, \bibinfo{author}{Broome, J.},
-  \bibinfo{author}{Cramer, W.}, \bibinfo{author}{Christ, R.},
-  \bibinfo{author}{Church, J.}, \bibinfo{author}{Clarke, L.},
-  \bibinfo{author}{Dahe, Q.}, \bibinfo{author}{Dasgupta, P.} et~al.
-  (\bibinfo{year}{2014}).
+\bibinfo{author}{R.~K. Pachauri}, \bibinfo{author}{M.~Allen},
+  \bibinfo{author}{V.~Barros}, \bibinfo{author}{J.~Broome},
+  \bibinfo{author}{W.~Cramer}, \bibinfo{author}{R.~Christ},
+  \bibinfo{author}{J.~Church}, \bibinfo{author}{L.~Clarke},
+  \bibinfo{author}{Q.~Dahe}, \bibinfo{author}{P.~Dasgupta}, et~al.,
 \newblock \bibinfo{title}{Climate change 2014: Synthesis report. contribution
   of working groups i, ii and iii to the fifth assessment report of the
-  intergovernmental panel on climate change}, .
+  intergovernmental panel on climate change}  (\bibinfo{year}{2014}).
 %Type = Article
-\bibitem[{Painter et~al.(2013)Painter, Moulton \& Wilson}]{painter2013modeling}
-\bibinfo{author}{Painter, S.}, \bibinfo{author}{Moulton, J.}, \&
-  \bibinfo{author}{Wilson, C.} (\bibinfo{year}{2013}).
+\bibitem[{Koven et~al.(2013)Koven, Riley, and Stern}]{koven2013analysis}
+\bibinfo{author}{C.~D. Koven}, \bibinfo{author}{W.~J. Riley},
+  \bibinfo{author}{A.~Stern},
+\newblock \bibinfo{title}{Analysis of permafrost thermal dynamics and response
+  to climate change in the {CMIP5} earth system models},
+\newblock \bibinfo{journal}{Journal of Climate} \bibinfo{volume}{26}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{1877--1900}.
+%Type = Article
+\bibitem[{Painter et~al.(2013)Painter, Moulton, and
+  Wilson}]{painter2013modeling}
+\bibinfo{author}{S.~Painter}, \bibinfo{author}{J.~Moulton},
+  \bibinfo{author}{C.~Wilson},
 \newblock \bibinfo{title}{Modeling challenges for predicting hydrologic
-  response to degrading permafrost}.
-\newblock {\it \bibinfo{journal}{Hydrogeology Journal}\/},  (pp.
-  \bibinfo{pages}{1--4}).
+  response to degrading permafrost},
+\newblock \bibinfo{journal}{Hydrogeology Journal}  (\bibinfo{year}{2013})
+  \bibinfo{pages}{1--4}.
 %Type = Article
-\bibitem[{Painter et~al.(2016)Painter, Coon, Atchley, Markus, Rao, Moulton \&
+\bibitem[{Harlan(1973)}]{harlan1973analysis}
+\bibinfo{author}{R.~Harlan},
+\newblock \bibinfo{title}{Analysis of coupled heat-fluid transport in partially
+  frozen soil},
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{9}
+  (\bibinfo{year}{1973}) \bibinfo{pages}{1314--1323}.
+%Type = Article
+\bibitem[{Guymon and Luthin(1974)}]{guymon1974coupled}
+\bibinfo{author}{G.~L. Guymon}, \bibinfo{author}{J.~N. Luthin},
+\newblock \bibinfo{title}{A coupled heat and moisture transport model for
+  arctic soils},
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{10}
+  (\bibinfo{year}{1974}) \bibinfo{pages}{995--1001}.
+%Type = Article
+\bibitem[{Taylor and Luthin(1978)}]{taylor1978model}
+\bibinfo{author}{G.~S. Taylor}, \bibinfo{author}{J.~N. Luthin},
+\newblock \bibinfo{title}{A model for coupled heat and moisture transfer during
+  soil freezing},
+\newblock \bibinfo{journal}{Canadian Geotechnical Journal} \bibinfo{volume}{15}
+  (\bibinfo{year}{1978}) \bibinfo{pages}{548--555}.
+%Type = Article
+\bibitem[{Takata et~al.(2003)Takata, Emori, and
+  Watanabe}]{takata2003development}
+\bibinfo{author}{K.~Takata}, \bibinfo{author}{S.~Emori},
+  \bibinfo{author}{T.~Watanabe},
+\newblock \bibinfo{title}{Development of the minimal advanced treatments of
+  surface interaction and runoff},
+\newblock \bibinfo{journal}{Global and planetary Change} \bibinfo{volume}{38}
+  (\bibinfo{year}{2003}) \bibinfo{pages}{209--222}.
+%Type = Article
+\bibitem[{Nicolsky et~al.(2007)Nicolsky, Romanovsky, Alexeev, and
+  Lawrence}]{nicolsky2007improved}
+\bibinfo{author}{D.~Nicolsky}, \bibinfo{author}{V.~Romanovsky},
+  \bibinfo{author}{V.~Alexeev}, \bibinfo{author}{D.~Lawrence},
+\newblock \bibinfo{title}{Improved modeling of permafrost dynamics in a gcm
+  land-surface scheme},
+\newblock \bibinfo{journal}{Geophysical research letters} \bibinfo{volume}{34}
+  (\bibinfo{year}{2007}).
+%Type = Article
+\bibitem[{McKenzie et~al.(2007)McKenzie, Voss, and
+  Siegel}]{mckenzie2007groundwater}
+\bibinfo{author}{J.~M. McKenzie}, \bibinfo{author}{C.~I. Voss},
+  \bibinfo{author}{D.~I. Siegel},
+\newblock \bibinfo{title}{Groundwater flow with energy transport and water--ice
+  phase change: numerical simulations, benchmarks, and application to freezing
+  in peat bogs},
+\newblock \bibinfo{journal}{Advances in water resources} \bibinfo{volume}{30}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{966--983}.
+%Type = Article
+\bibitem[{Bense et~al.(2009)Bense, Ferguson, and Kooi}]{bense2009evolution}
+\bibinfo{author}{V.~Bense}, \bibinfo{author}{G.~Ferguson},
+  \bibinfo{author}{H.~Kooi},
+\newblock \bibinfo{title}{Evolution of shallow groundwater flow systems in
+  areas of degrading permafrost},
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{36}
+  (\bibinfo{year}{2009}).
+%Type = Article
+\bibitem[{Lawrence et~al.(2012)Lawrence, Slater, and
+  Swenson}]{lawrence2012simulation}
+\bibinfo{author}{D.~M. Lawrence}, \bibinfo{author}{A.~G. Slater},
+  \bibinfo{author}{S.~C. Swenson},
+\newblock \bibinfo{title}{Simulation of present-day and future permafrost and
+  seasonally frozen ground conditions in ccsm4},
+\newblock \bibinfo{journal}{Journal of Climate} \bibinfo{volume}{25}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{2207--2225}.
+%Type = Article
+\bibitem[{Karra et~al.(2014)Karra, Painter, and Lichtner}]{karra2014three}
+\bibinfo{author}{S.~Karra}, \bibinfo{author}{S.~Painter},
+  \bibinfo{author}{P.~Lichtner},
+\newblock \bibinfo{title}{Three-phase numerical model for subsurface hydrology
+  in permafrost-affected regions},
+\newblock \bibinfo{journal}{Cryosphere Discuss} \bibinfo{volume}{8}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{149--185}.
+%Type = Article
+\bibitem[{Kurylyk et~al.(2014)Kurylyk, MacQuarrie, and
+  McKenzie}]{kurylyk2014climate}
+\bibinfo{author}{B.~L. Kurylyk}, \bibinfo{author}{K.~T. MacQuarrie},
+  \bibinfo{author}{J.~M. McKenzie},
+\newblock \bibinfo{title}{Climate change impacts on groundwater and soil
+  temperatures in cold and temperate regions: Implications, mathematical
+  theory, and emerging simulation tools},
+\newblock \bibinfo{journal}{Earth-Science Reviews} \bibinfo{volume}{138}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{313--334}.
+%Type = Article
+\bibitem[{Dall'Amico et~al.(2011)Dall'Amico, Endrizzi, Gruber, and
+  Rigon}]{dall2011robust}
+\bibinfo{author}{M.~Dall'Amico}, \bibinfo{author}{S.~Endrizzi},
+  \bibinfo{author}{S.~Gruber}, \bibinfo{author}{R.~Rigon},
+\newblock \bibinfo{title}{A robust and energy-conserving model of freezing
+  variably-saturated soil},
+\newblock \bibinfo{journal}{The Cryosphere} \bibinfo{volume}{5}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{469--484}.
+%Type = Article
+\bibitem[{Pikul et~al.(1974)Pikul, Street, and Remson}]{pikul1974numerical}
+\bibinfo{author}{M.~F. Pikul}, \bibinfo{author}{R.~L. Street},
+  \bibinfo{author}{I.~Remson},
+\newblock \bibinfo{title}{A numerical model based on coupled one-dimensional
+  richards and boussinesq equations},
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{10}
+  (\bibinfo{year}{1974}) \bibinfo{pages}{295--302}.
+%Type = Article
+\bibitem[{Zhu et~al.(2011)Zhu, Zha, Tong, and Yang}]{zhu2011method}
+\bibinfo{author}{Y.~Zhu}, \bibinfo{author}{Y.~Zha}, \bibinfo{author}{J.~Tong},
+  \bibinfo{author}{J.~Yang},
+\newblock \bibinfo{title}{Method of coupling 1-d unsaturated flow with 3-d
+  saturated flow on large scale},
+\newblock \bibinfo{journal}{Water Science and Engineering} \bibinfo{volume}{4}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{357--373}.
+%Type = Article
+\bibitem[{Coon et~al.(2016)Coon, Moulton, and Painter}]{ecoon2016managing}
+\bibinfo{author}{E.~T. Coon}, \bibinfo{author}{J.~D. Moulton},
+  \bibinfo{author}{S.~L. Painter},
+\newblock \bibinfo{title}{Managing complexity in simulations of land surface
+  and near-surface processes},
+\newblock \bibinfo{journal}{Environmental Modelling \& Software}
+  \bibinfo{volume}{78} (\bibinfo{year}{2016}) \bibinfo{pages}{134--149}.
+%Type = Article
+\bibitem[{Painter et~al.(2016)Painter, Coon, Atchley, Markus, Rao, Moulton, and
   Daniil}]{spainter2016integrated}
-\bibinfo{author}{Painter, S.~L.}, \bibinfo{author}{Coon, E.~T.},
-  \bibinfo{author}{Atchley, A.}, \bibinfo{author}{Markus, B.},
-  \bibinfo{author}{Rao, G.}, \bibinfo{author}{Moulton, J.~D.}, \&
-  \bibinfo{author}{Daniil, S.} (\bibinfo{year}{2016}).
+\bibinfo{author}{S.~L. Painter}, \bibinfo{author}{E.~T. Coon},
+  \bibinfo{author}{A.~Atchley}, \bibinfo{author}{B.~Markus},
+  \bibinfo{author}{G.~Rao}, \bibinfo{author}{J.~D. Moulton},
+  \bibinfo{author}{S.~Daniil},
 \newblock \bibinfo{title}{Integrated surface/subsurface permafrost thermal
-  hydrology: Model formulation and proof-of-concept simulations}.
-\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
-  \bibinfo{volume}{(submitted)}\/}.
+  hydrology: Model formulation and proof-of-concept simulations},
+\newblock \bibinfo{journal}{Environmental Modelling \& Software}
+  \bibinfo{volume}{(submitted)} (\bibinfo{year}{2016}).
+%Type = Article
+\bibitem[{Moulton et~al.(2012)Moulton, Berndt, Garimella, Prichett-Sheats,
+  Hammond, Day, and Meza}]{moulton2012high}
+\bibinfo{author}{J.~D. Moulton}, \bibinfo{author}{M.~Berndt},
+  \bibinfo{author}{R.~Garimella}, \bibinfo{author}{L.~Prichett-Sheats},
+  \bibinfo{author}{G.~Hammond}, \bibinfo{author}{M.~Day},
+  \bibinfo{author}{J.~Meza},
+\newblock \bibinfo{title}{High-level design of amanzi, the multi-process high
+  performance computing simulator, office of environmental management, united
+  states department of energy, washington dc}  (\bibinfo{year}{2012}).
+%Type = Article
+\bibitem[{Jorgenson et~al.(2006)Jorgenson, Shur, and
+  Pullman}]{jorgenson2006abrupt}
+\bibinfo{author}{M.~T. Jorgenson}, \bibinfo{author}{Y.~L. Shur},
+  \bibinfo{author}{E.~R. Pullman},
+\newblock \bibinfo{title}{Abrupt increase in permafrost degradation in arctic
+  alaska},
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{33}
+  (\bibinfo{year}{2006}).
+%Type = Inproceedings
+\bibitem[{Liljedahl et~al.(2012)Liljedahl, Hinzman, and
+  Schulla}]{liljedahl2012ice}
+\bibinfo{author}{A.~Liljedahl}, \bibinfo{author}{L.~Hinzman},
+  \bibinfo{author}{J.~Schulla},
+\newblock \bibinfo{title}{Ice-wedge polygon type controls low-gradient
+  watershed-scale hydrology},
+\newblock in: \bibinfo{booktitle}{Proceedings of the Tenth International
+  Conference on Permafrost}, volume~\bibinfo{volume}{1}, \bibinfo{year}{2012},
+  pp. \bibinfo{pages}{231--236}.
+%Type = Article
+\bibitem[{Hinzman et~al.(2005)Hinzman, Bettez, Bolton, Chapin, Dyurgerov,
+  Fastie, Griffith, Hollister, Hope, Huntington et~al.}]{hinzman2005evidence}
+\bibinfo{author}{L.~D. Hinzman}, \bibinfo{author}{N.~D. Bettez},
+  \bibinfo{author}{W.~R. Bolton}, \bibinfo{author}{F.~S. Chapin},
+  \bibinfo{author}{M.~B. Dyurgerov}, \bibinfo{author}{C.~L. Fastie},
+  \bibinfo{author}{B.~Griffith}, \bibinfo{author}{R.~D. Hollister},
+  \bibinfo{author}{A.~Hope}, \bibinfo{author}{H.~P. Huntington}, et~al.,
+\newblock \bibinfo{title}{Evidence and implications of recent climate change in
+  northern alaska and other arctic regions},
+\newblock \bibinfo{journal}{Climatic Change} \bibinfo{volume}{72}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{251--298}.
 %Type = Article
 \bibitem[{Rowland et~al.(2010)Rowland, Jones, Altmann, Bryan, Crosby, Hinzman,
   Kane, Lawrence, Mancino, Marsh, McNamara, Romanvosky, Toniolo, Travis,
-  Trochim, Wilson \& Geernaert}]{rowland2010arctic}
-\bibinfo{author}{Rowland, J.~C.}, \bibinfo{author}{Jones, C.~E.},
-  \bibinfo{author}{Altmann, G.}, \bibinfo{author}{Bryan, R.},
-  \bibinfo{author}{Crosby, B.~T.}, \bibinfo{author}{Hinzman, L.~D.},
-  \bibinfo{author}{Kane, D.~L.}, \bibinfo{author}{Lawrence, D.~M.},
-  \bibinfo{author}{Mancino, A.}, \bibinfo{author}{Marsh, P.},
-  \bibinfo{author}{McNamara, J.~P.}, \bibinfo{author}{Romanvosky, V.~E.},
-  \bibinfo{author}{Toniolo, H.}, \bibinfo{author}{Travis, B.~J.},
-  \bibinfo{author}{Trochim, E.}, \bibinfo{author}{Wilson, C.~J.}, \&
-  \bibinfo{author}{Geernaert, G.~L.} (\bibinfo{year}{2010}).
+  Trochim, Wilson, and Geernaert}]{rowland2010arctic}
+\bibinfo{author}{J.~C. Rowland}, \bibinfo{author}{C.~E. Jones},
+  \bibinfo{author}{G.~Altmann}, \bibinfo{author}{R.~Bryan},
+  \bibinfo{author}{B.~T. Crosby}, \bibinfo{author}{L.~D. Hinzman},
+  \bibinfo{author}{D.~L. Kane}, \bibinfo{author}{D.~M. Lawrence},
+  \bibinfo{author}{A.~Mancino}, \bibinfo{author}{P.~Marsh},
+  \bibinfo{author}{J.~P. McNamara}, \bibinfo{author}{V.~E. Romanvosky},
+  \bibinfo{author}{H.~Toniolo}, \bibinfo{author}{B.~J. Travis},
+  \bibinfo{author}{E.~Trochim}, \bibinfo{author}{C.~J. Wilson},
+  \bibinfo{author}{G.~L. Geernaert},
 \newblock \bibinfo{title}{Arctic landscapes in transition: Responses to thawing
-  permafrost}.
-\newblock {\it \bibinfo{journal}{Eos, Transactions American Geophysical
-  Union}\/},  {\it \bibinfo{volume}{91}\/}, \bibinfo{pages}{229--230}.
-%Type = Article
-\bibitem[{Takata et~al.(2003)Takata, Emori \& Watanabe}]{takata2003development}
-\bibinfo{author}{Takata, K.}, \bibinfo{author}{Emori, S.}, \&
-  \bibinfo{author}{Watanabe, T.} (\bibinfo{year}{2003}).
-\newblock \bibinfo{title}{Development of the minimal advanced treatments of
-  surface interaction and runoff}.
-\newblock {\it \bibinfo{journal}{Global and planetary Change}\/},  {\it
-  \bibinfo{volume}{38}\/}, \bibinfo{pages}{209--222}.
-%Type = Article
-\bibitem[{Tarnocai et~al.(2009)Tarnocai, Canadell, Schuur, Kuhry, Mazhitova \&
-  Zimov}]{tarnocai2009soil}
-\bibinfo{author}{Tarnocai, C.}, \bibinfo{author}{Canadell, J.},
-  \bibinfo{author}{Schuur, E.}, \bibinfo{author}{Kuhry, P.},
-  \bibinfo{author}{Mazhitova, G.}, \& \bibinfo{author}{Zimov, S.}
-  (\bibinfo{year}{2009}).
-\newblock \bibinfo{title}{Soil organic carbon pools in the northern circumpolar
-  permafrost region}.
-\newblock {\it \bibinfo{journal}{Global biogeochemical cycles}\/},  {\it
-  \bibinfo{volume}{23}\/}.
-%Type = Article
-\bibitem[{Taylor \& Luthin(1978)}]{taylor1978model}
-\bibinfo{author}{Taylor, G.~S.}, \& \bibinfo{author}{Luthin, J.~N.}
-  (\bibinfo{year}{1978}).
-\newblock \bibinfo{title}{A model for coupled heat and moisture transfer during
-  soil freezing}.
-\newblock {\it \bibinfo{journal}{Canadian Geotechnical Journal}\/},  {\it
-  \bibinfo{volume}{15}\/}, \bibinfo{pages}{548--555}.
-%Type = Article
-\bibitem[{Turner et~al.(2007)Turner, Overland \& Walsh}]{turner2007arctic}
-\bibinfo{author}{Turner, J.}, \bibinfo{author}{Overland, J.~E.}, \&
-  \bibinfo{author}{Walsh, J.~E.} (\bibinfo{year}{2007}).
-\newblock \bibinfo{title}{An arctic and antarctic perspective on recent climate
-  change}.
-\newblock {\it \bibinfo{journal}{International Journal of Climatology}\/},
-  {\it \bibinfo{volume}{27}\/}, \bibinfo{pages}{277--293}.
-%Type = Article
-\bibitem[{Walvoord \& Striegl(2007)}]{walvoord2007increased}
-\bibinfo{author}{Walvoord, M.~A.}, \& \bibinfo{author}{Striegl, R.~G.}
-  (\bibinfo{year}{2007}).
-\newblock \bibinfo{title}{Increased groundwater to stream discharge from
-  permafrost thawing in the yukon river basin: Potential impacts on lateral
-  export of carbon and nitrogen}.
-\newblock {\it \bibinfo{journal}{Geophysical Research Letters}\/},  {\it
-  \bibinfo{volume}{34}\/}.
+  permafrost},
+\newblock \bibinfo{journal}{Eos, Transactions American Geophysical Union}
+  \bibinfo{volume}{91} (\bibinfo{year}{2010}) \bibinfo{pages}{229--230}.
 
 \end{thebibliography}

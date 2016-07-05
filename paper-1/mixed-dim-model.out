@@ -1,15 +1,14 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Motivation: Fine-scale Simulation Study}{}% 2
 \BOOKMARK [1][-]{section.3}{Arcos Framework}{}% 3
-\BOOKMARK [1][-]{section.4}{Coupling Scheme, Modeling Approach and ATS Refactoring Strategy}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Weakly Coupled Scheme}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Mixed-Dimensional Modeling Approach}{section.4}% 6
+\BOOKMARK [1][-]{section.4}{Modeling Approach, Coupling Scheme, and ATS Refactoring Strategy}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Mixed-Dimensional Modeling Approach}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Weakly Coupled Scheme}{section.4}% 6
 \BOOKMARK [2][-]{subsection.4.3}{ATS Refactoring Strategy}{section.4}% 7
-\BOOKMARK [1][-]{section.5}{Numerical Tests and Discussions}{}% 8
-\BOOKMARK [2][-]{subsection.5.1}{Spinup Process}{section.5}% 9
-\BOOKMARK [2][-]{subsection.5.2}{Time Convergence Studies : 75 polygons}{section.5}% 10
-\BOOKMARK [2][-]{subsection.5.3}{Speedup Study}{section.5}% 11
-\BOOKMARK [2][-]{subsection.5.4}{Projection of Permafrost Evolution to 2100}{section.5}% 12
-\BOOKMARK [1][-]{section.6}{Conclusions and Future Work}{}% 13
-\BOOKMARK [2][-]{subsection.6.1}{Closing Remarks}{section.6}% 14
-\BOOKMARK [2][-]{subsection.6.2}{Future Directions}{section.6}% 15
+\BOOKMARK [1][-]{section.5}{Results and Discussions}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Numerical Results \205 A Comparative Study}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Speedup Study}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Conclusions and Future Work}{}% 11
+\BOOKMARK [2][-]{subsection.6.1}{Closing Remarks}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.2}{Future Directions}{section.6}% 13
+\BOOKMARK [1][-]{appendix.A}{Numerical Experiments \205 Code Verification}{}% 14
