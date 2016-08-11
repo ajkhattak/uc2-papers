@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUL 2016 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 JUL 2016 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -665,14 +665,14 @@ File: figures/process-tree1.png Graphic file (type png)
 <use figures/process-tree1.png>
 Package pdftex.def Info: figures/process-tree1.png used on input line 126.
 (pdftex.def)             Requested size: 312.98564pt x 213.40196pt.
- [7 <./figures/mixed-dim-model.png>] [8 <./figures/process-tree1.png>]
-<figures/coupling-scheme.png, id=182, 621.522pt x 382.5492pt>
+ [7 <./figures/mixed-dim-model.png>]
+<figures/coupling-scheme.png, id=175, 621.522pt x 382.5492pt>
 File: figures/coupling-scheme.png Graphic file (type png)
 
 <use figures/coupling-scheme.png>
 Package pdftex.def Info: figures/coupling-scheme.png used on input line 140.
 (pdftex.def)             Requested size: 312.98889pt x 184.94073pt.
- [9 <./figures/coupling-scheme.png>]
+ [8 <./figures/process-tree1.png>] [9 <./figures/coupling-scheme.png>]
 <figures/lobster75-3d.png, id=192, 384.4764pt x 221.1462pt>
 File: figures/lobster75-3d.png Graphic file (type png)
 
@@ -695,7 +695,7 @@ Package epstopdf Info: Source file: <figures/comparison/regular/ss-sat/comp-sat
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted-to.pdf
-, id=214, 397.485pt x 433.62pt>
+, id=216, 397.485pt x 433.62pt>
 File: figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -719,7 +719,7 @@ Package epstopdf Info: Source file: <figures/comparison/regular/ss-sat/comp-sat
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-converted-to.pdf
-, id=215, 397.485pt x 433.62pt>
+, id=217, 397.485pt x 433.62pt>
 File: figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -743,7 +743,7 @@ ar/ss-temp/comp-temp-loc1-cycle0020.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020-eps-converted-to.p
-df, id=216, 397.485pt x 433.62pt>
+df, id=218, 397.485pt x 433.62pt>
 File: figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020-eps-converted
 -to.pdf Graphic file (type pdf)
 
@@ -767,7 +767,7 @@ ar/ss-temp/comp-temp-loc5-cycle0020.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020-eps-converted-to.p
-df, id=217, 397.485pt x 433.62pt>
+df, id=219, 397.485pt x 433.62pt>
 File: figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020-eps-converted
 -to.pdf Graphic file (type pdf)
 
@@ -791,7 +791,7 @@ mp-pd-location1-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ponded-depth/comp-pd-location1-eps-converted-to.pdf
-, id=218, 578.16pt x 433.62pt>
+, id=220, 578.16pt x 433.62pt>
 File: figures/comparison/regular/ponded-depth/comp-pd-location1-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -815,7 +815,7 @@ mp-pd-location5-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ponded-depth/comp-pd-location5-eps-converted-to.pdf
-, id=219, 578.16pt x 433.62pt>
+, id=221, 578.16pt x 433.62pt>
 File: figures/comparison/regular/ponded-depth/comp-pd-location5-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -836,7 +836,7 @@ rted-to.pdf>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/comparison/regular/error-eps-converted-to.pdf, id=220, 578.16pt x 433.
+<figures/comparison/regular/error-eps-converted-to.pdf, id=222, 578.16pt x 433.
 62pt>
 File: figures/comparison/regular/error-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -858,7 +858,7 @@ ror.eps>
 (epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf, id=221, 578.
+<figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf, id=223, 578.
 16pt x 433.62pt>
 File: figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -881,7 +881,7 @@ ror.eps>
 (epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf, id=222, 578.
+<figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf, id=224, 578.
 16pt x 433.62pt>
 File: figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1000,7 +1000,7 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on mixed-dim-model.pdf (24 pages, 916582 bytes).
+Output written on mixed-dim-model.pdf (24 pages, 916590 bytes).
 PDF statistics:
  819 PDF objects out of 1000 (max. 8388607)
  347 compressed objects within 4 object streams

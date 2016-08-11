@@ -133,7 +133,7 @@ Technically, our modeling strategy splits a 3D domain into $2N+1$ subdomains, wh
 The weakly coupled scheme for analyzing our mixed-dimensional model involves two fundamental steps. Step 1 solves surface-star thermal hydrology system without  any external and exchanged sources. Step 2 solves subsurface system with surface ponding but no lateral surface flow. The first step mainly acts as a spatial distributor of the mass and energy, that is, distribute the pressures and temperature values across 2D overland system, and its solution serves as initial condition for Step 2. That is, the surface-star system updates the subsurface system (one-dimensional columns) before the subsurface system advances in time. After the update from Step 1, we implicitly solve subsurface system with surface ponding but no surface lateral flow, and use the output of that half-step to update surface-star pressure and temperature for the next iteration in the algorithm. As depicted in Fig.~\ref{coupling-schematic}, the top and bottom blue spots represent 2D surface-star system and 1D subsurface columns, respectively, and the cyan colors (in the middle) are intermediate steps for updating surface-star and surface/subsurface systems. For the sake of clarity, we will refer to the pressure and temperature fields of step 1 as surface-star pressure and temperature, while that of Step 2 will be called as subsurface and surface pressures and temperatures.
 
 
-\textbf{Refer to some published work related to mixed-dimensional modeling.}
+%\textbf{Refer to some published work related to mixed-dimensional modeling.}
 
 \begin{figure}[!htpb]
 \centering
