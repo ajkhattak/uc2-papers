@@ -62,10 +62,10 @@
 %\address[mysecondaryaddress]{360 Park Avenue South, New York}
 
 \begin{abstract}
-Permafrost soils harbor massive amount of frozen organic carbon and are warming at a rate significantly larger than the rest of the planet. To determine the responses of the Arctic ecosystems to changing climate is an important challenge. Modeling and simulation techniques are essential tools for studying the Arctic's complex hydrological environment.  \\
+Permafrost soils harbor massive amount of frozen organic carbon and are warming at a rate significantly larger than the rest of the planet. Modeling and simulation techniques are essential tools for studying the complex hydrological environment of the Arctic regions. These tools help to determine the responses of the Arctic ecosystems to changing climate. \\
 We present a novel mixed-dimensional model, motivated by fine-scale simulations, to simulate soil thermal hydrology in degrading permafrost regions and make these process-rich simulations tractable at watershed scales. The approach indirectly couples one-dimensional subsurface columns with a two-dimensional surface system, and has two fundamental steps. Step 1 solves overland thermal hydrology system with no sources, mainly act as a spatial distributor of the mass and energy, and updates the subsurface system before it advances in time. Step 2 implicitly solves the subsurface system with surface ponding but no surface lateral flow, and use the output of that half-step to update the pressure and temperature of Step 1 for the next iteration. \\
-This is a very first attempt to couple state-of-the-art representation of freezing soil physics with overland flow and surface energy balance at scales of 10s of meters. 
-We demonstrate the accuracy and efficiency of our scheme. Our scheme is computationally less expensive, respects the accuracy (in comparison with the strongly coupled 3D model) and scalability, and applicable to many integrated surface and subsurface thermal hydrology problems at field-scale. Further, it allows to efficiently track thaw-induced subsidence, easy sub-cycling of physical processes, and avoids any mesh tangling that can result from representing dynamic topography in a three-dimensional simulation. 
+This is a first attempt to couple state-of-the-art representation of freezing soil physics with overland flow and surface energy balance at scales of 100s of meters. 
+We demonstrate the accuracy and efficiency of our scheme. Our scheme is highly scalable, supports subcycling of different processes, and compares well with fully 3D representation, but is computationally less expensive. Further, it allows for efficient tracking of thaw-induced subsidence and avoids any mesh tangling that can result from representing dynamic topography in a 3D simulation. Although we focus on permafrost thermal hydrology, the model structure is applicable to many integrated surface and subsurface thermal hydrology problems at field-scale.
 % to simulate the thermal hydrology of thawing polygonal tundra near Barrow, Alaska in warming climate.
 \end{abstract}
 
@@ -173,13 +173,12 @@ We demonstrate three set of studies based on the variations introduced in the su
 \end{equation}
 Here $\bar{Z}$ is the exaggerated elevation, $Z$ is the original elevation with mean $\mu$, and $\alpha$ is the exaggeration parameter. Equation~(\ref{formula-exagg})  preserves the mean while the standard deviation depends on the value of $\alpha$ and is given by $0.14 \alpha$. The coefficient in front of $\alpha$ is the standard deviation of the original elevation $Z$ -- in our case $Z$ correspond to the domain shown in Fig.~\ref{surf-location}. Our three set of studies correspond to $\alpha=1,3,$ and $5$.
 These studies aim to determine (in an approximate sense) the failure of the mixed-dimensional model. In other words, since our modeling strategy is mainly based on a loosely coupled scheme thereby it should eventually results in breakdown due to significant heterogeneity in the surface elevations. We expect the model to give promising results for simulating low-gradient polygonal tundra, and believe that the values of $\alpha$ we choose provide reasonably enough variations for a domain of 100s of meter. For the sake of clarity, hereafter, we refer to the cases of $\alpha = 1, 3$ and $5$ as Study-I, II and III, respectively. \\
-Our numerical experiments confirm a high agreement between the results of the mixed-dimensional model and the 3D model at all selected location for all three studies. We present the results of study I in more detail, and it serves as a representative of the other two studies. Also, most of the presented plots correspond to the early summer. Fig.~\ref{ss-sat-comp} and~\ref{ss-temp-comp} compares the subsurface water saturations and temperatures at locations 1 and 5, respectively. The accuracy of our results is evident. The surface ponded depths of the two models are depicted in Fig.~\ref{surf-pd-comp}. As expect, our results fit the 3D model's results very well. We see the same level of agreement at the other locations as well, but we are not showing them here.
-Fig.~\ref{error-plots} plots the root mean square error difference in the subsurface water saturations of the two models of study-I, II, and III. Not surprisingly, as the value of $\alpha$ increases the error grows to some extent, but still we see the results of the mixed-dimensional model converge to the corresponding benchmark solution. The consistency of our numerical results with the fully coupled 3D simulations validate the accuracy of our scheme.
-\textbf{PLOT - SURFACE TEMPERATURE COMPARISON.}
+Our numerical experiments confirm a high agreement between the results of the mixed-dimensional model and the 3D model at all selected location for all three studies. We present the results of study I in more detail, and it serves as a representative of the other two studies. Also, most of the presented plots correspond to the early summer. Fig.~\ref{ss-sat-comp} and~\ref{ss-temp-comp} compares the subsurface water saturations and temperatures at locations 1 and 5, respectively. The accuracy of our results is evident. The surface ponded depths of the two models are depicted in Fig.~\ref{surf-pd-comp}.  We compare the surface temperatures obtained with the two-schemes in Fig.~\ref{surf-temp-comp} at locations 1 and 5. Fig.~\ref{surf-temp-comp} also displays the difference in the surface temperatures at the two locations highlighting spatial variability in the temperatures. As expect, our results fit the 3D model's results very well. We see the same level of agreement at the other locations as well, but we are not showing them here.
+The root mean square difference in the subsurface water saturations of the two models of study-I, II, and III are shown in Fig.~\ref{error-plots}. Not surprisingly, as the value of $\alpha$ increases the error grows to some extent, but we still see the results of the mixed-dimensional model converge to the corresponding benchmark solution. The consistency of our numerical results with the fully coupled 3D simulations validate the accuracy of our scheme. 
 
-% change y axis range from scientific notation
+
 % Fig 7. change title -- subsurface WATER saturation
-% Fig. 8 change legend --- location 0 and so on
+
 % add Study I, II and III to the titles
 
 
@@ -210,10 +209,20 @@ Fig.~\ref{error-plots} plots the root mean square error difference in the subsur
 
 \begin{figure}[!htpb]
 \centering
-\includegraphics[height = 5.5cm, width=10.cm]{figures/comparison/regular/error.eps}
-\includegraphics[height = 5.5cm, width=10.cm]{figures/comparison/dist/Elev-grad1.5m/error.eps}
-\includegraphics[height = 5.5cm, width=10.cm]{figures/comparison/dist/Elev-grad2.5m/error.eps}
-\caption{An illustration of the surface ponded depths of the two schemes at locations 1 and 5.}
+\includegraphics[height = 5.9cm, width=11.cm]{figures/comparison/regular/surf-temp/comp-temp-location1.eps} \\
+\includegraphics[height = 5.9cm, width=11.cm]{figures/comparison/regular/surf-temp/comp-temp-location5.eps}
+\includegraphics[height = 5.9cm, width=11.cm]{figures/comparison/regular/surf-temp/comp-temp-location1-5.eps}
+\caption{An illustration of the surface temperatures of the two schemes at locations 1 and 5 for the entire year. The bottom plot highlights the difference between the temperatures at location 1 and 5, though they appear quite similar in the top two plots.}
+\label{surf-temp-comp}
+\end{figure}
+
+
+\begin{figure}[!htpb]
+\centering
+\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/regular/error.eps}
+\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/dist/Elev-grad1.5m/error.eps}
+\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/dist/Elev-grad2.5m/error.eps}
+\caption{The root mean square difference of the subsurface water saturations at the selected locations of the three studies.}
 \label{error-plots}
 \end{figure}
 
@@ -240,6 +249,9 @@ It can be seen that for a fixed number of processors, the computational time dec
 \label{lcs-speed}
 \end{figure}
 
+\subsection{Subcycling Process Kernels}
+Subcycling is a multi time stepping approach in simulations. The idea is to assign a suitable local time-step to each subdomain rather than one single global time-step. The subcycling is a very convenient approach for simulating permafrost type regions because during the time of snowmelt and snow accumulation, the time-step of the numerical methods is relatively smaller, and a reasonable amount of computational time is spent during these periods. Further, in permafrost simulations, due to the spatial variations in the thermal and hydrological conditions the phase change is mainly local, but its affects are global pertaining to the time-step. \\
+Our mixed-dimensional modeling approach efficiently allows subcycling PKs because we discretize subsurface as independent columns/subdomains. Thereby the subdomains can advance in time with their preferred time-steps until they hit the synchronized time. We see a 15-20\% decrease in the computational time as compared to no subcycling simulations. We intend to explore this topic and a report a detailed study in near future as we believe the subcycling approach should significantly reduce computational time.
 
 \section{Conclusions and Future Work}\label{conclusion}
 \subsection{Closing Remarks}
@@ -258,13 +270,7 @@ Our modeling approach has many advantages over existing hydrological simulators.
 
  
 \subsection{Future Directions}
-This is a very first attempt to provide process-rich simulations capability of the permafrost regions at watershed-scale. However, the work is not yet complete, we intend to  extend this capability to address more challenging problems in the near future. A few possible extensions are listed below:
-
-A very first task would be to incorporate a subgrid model for dynamic microtopography.
-
-Subcycling is a multi time stepping approach in simulations. The idea is to assign a suitable local time-step to each subdomain rather than one single global time-step. The subcycling is a very convenient approach for permafrost type simulations and can dramatically reduce computational time. The phase change in the permafrost simulations significantly affect the time-step of the numerical methods, and a reasonable amount of computational time is spent during a phase change. In permafrost simulations, due to the spatial variation in the thermal and hydrological conditions the phase change is mainly local, but its affects are global pertaining to the time-step. Our mixed-dimensional modeling approach can efficiently allow model subcycling since the subsurface is discretized as independent columns (subdomains). Since the subdomains advance (in time) independently (they do not interact with each other directly), thereby subcycling seems trivial. 
-
-Thawing of permafrost can cause ice-wedge polygons to deform, mold and change the landscape (low-centered polygons can transform to high-centered polygons)~\cite{jorgenson2006abrupt,liljedahl2012ice}. Further, it can bring substantial changes in hydrology and soil moisture, can alter the drainage network, and transform a dry region to a wetland ecosystem~\cite{hinzman2005evidence,rowland2010arctic}. Our modeling strategy is designed in a way that can easily allow to track thaw-induced subsidence in simulating permafrost dynamics, because we are mainly working with one-dimensional columns (i.e., the discretization is based on independent 1D columns).
+This is a first attempt to provide process-rich simulations capability of the permafrost regions at watershed-scale. However, the work is not yet complete, we intend to  extend this capability to address more challenging problems in the near future. A very first task would be to incorporate a subgrid model for dynamic microtopography. Thawing of permafrost can cause ice-wedge polygons to deform, mold and change the landscape (low-centered polygons can transform to high-centered polygons)~\cite{jorgenson2006abrupt,liljedahl2012ice}. Further, it can bring substantial changes in hydrology and soil moisture, can alter the drainage network, and transform a dry region to a wetland ecosystem~\cite{hinzman2005evidence,rowland2010arctic}. Our modeling strategy is designed in a way that can easily allow to track thaw-induced subsidence in simulating permafrost dynamics, because we are mainly working with one-dimensional columns (i.e., the discretization is based on independent 1D columns).
 
 
 
