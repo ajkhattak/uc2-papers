@@ -3,48 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mixed-dim-model.aux
 The style file: model1-num-names.bst
 Database file #1: reference.bib
+Warning--I didn't find a database entry for "atchley2015"
+Warning--I didn't find a database entry for "atchley2016"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty journal in pachauri2014climate
 Warning--empty journal in moulton2012high
-You've used 32 entries,
+You've used 33 entries,
             2910 wiz_defined-function locations,
-            817 strings with 12059 characters,
-and the built_in function-call counts, 22363 in all, are:
-= -- 1611
-> -- 1203
+            826 strings with 12269 characters,
+and the built_in function-call counts, 23036 in all, are:
+= -- 1661
+> -- 1238
 < -- 9
-+ -- 459
-- -- 417
-* -- 2872
-:= -- 3364
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 296
-chr.to.int$ -- 32
-cite$ -- 34
-duplicate$ -- 1407
-empty$ -- 1316
-format.name$ -- 513
-if$ -- 3955
++ -- 472
+- -- 429
+* -- 2961
+:= -- 3465
+add.period$ -- 33
+call.type$ -- 33
+change.case$ -- 305
+chr.to.int$ -- 33
+cite$ -- 35
+duplicate$ -- 1450
+empty$ -- 1355
+format.name$ -- 528
+if$ -- 4073
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 353
-newline$ -- 171
-num.names$ -- 128
-pop$ -- 381
+missing$ -- 364
+newline$ -- 176
+num.names$ -- 132
+pop$ -- 391
 preamble$ -- 1
-purify$ -- 297
+purify$ -- 306
 quote$ -- 0
-skip$ -- 361
+skip$ -- 371
 stack$ -- 0
-substring$ -- 971
-swap$ -- 1287
+substring$ -- 999
+swap$ -- 1328
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 285
+type$ -- 294
 warning$ -- 2
-while$ -- 142
+while$ -- 147
 width$ -- 0
-write$ -- 427
-(There were 2 warnings)
+write$ -- 440
+(There were 4 warnings)

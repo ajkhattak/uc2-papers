@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -61,6 +61,15 @@
   Assessment, by Arctic Climate Impact Assessment, pp. 144. ISBN 0521617782.
   Cambridge, UK: Cambridge University Press, December 2004.}
   \bibinfo{volume}{1} (\bibinfo{year}{2004}).
+%Type = Article
+\bibitem[{Billings et~al.(1982)Billings, Luken, Mortensen, and
+  Peterson}]{billings1982arctic}
+\bibinfo{author}{W.~Billings}, \bibinfo{author}{J.~Luken},
+  \bibinfo{author}{D.~Mortensen}, \bibinfo{author}{K.~Peterson},
+\newblock \bibinfo{title}{Arctic tundra: A source or sink for atmospheric
+  carbon dioxide in a changing environment?},
+\newblock \bibinfo{journal}{Oecologia} \bibinfo{volume}{53}
+  (\bibinfo{year}{1982}) \bibinfo{pages}{7--11}.
 %Type = Inproceedings
 \bibitem[{Osterkamp(1983)}]{osterkamp1983response}
 \bibinfo{author}{T.~Osterkamp},
