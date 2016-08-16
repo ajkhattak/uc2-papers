@@ -35,52 +35,56 @@
 \citation{atchley2016}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Motivation: Fine-scale Simulation Study}{5}{section.2}}
 \newlabel{motivation}{{2}{5}{Motivation: Fine-scale Simulation Study}{section.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Results from two-dimensional fine-scale modeling. Shown are snapshots of ice saturation index and liquid saturation index in cross-sections across two ice-wedge polygons.}}{6}{figure.1}}
+\newlabel{oct15}{{1}{6}{Results from two-dimensional fine-scale modeling. Shown are snapshots of ice saturation index and liquid saturation index in cross-sections across two ice-wedge polygons}{figure.1}{}}
 \citation{moulton2012high}
 \citation{ecoon2016managing,moulton2012high,spainter2016integrated}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Arcos Framework}{6}{section.3}}
-\newlabel{arcos-framework}{{3}{6}{Arcos Framework}{section.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Modeling Approach, Coupling Scheme, and ATS Refactoring Strategy}{7}{section.4}}
-\newlabel{mixed-dim-model}{{4}{7}{Modeling Approach, Coupling Scheme, and ATS Refactoring Strategy}{section.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Mixed-Dimensional Modeling Approach}{7}{subsection.4.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces An illustration of the independent 1D subsurface columns coupled to the surface-star system. The surface system (1D cells lying on the top of corresponding columns) are not shown.}}{8}{figure.1}}
-\newlabel{surf-cols}{{1}{8}{An illustration of the independent 1D subsurface columns coupled to the surface-star system. The surface system (1D cells lying on the top of corresponding columns) are not shown}{figure.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Weakly Coupled Scheme}{8}{subsection.4.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A customized hierarchical structure of the process kernels. Blue blocks highlights independent process models; Light blue blocks strongly coupled independent process kernels; Orange blocks represent weak couplers.}}{9}{figure.2}}
-\newlabel{pk-tree}{{2}{9}{A customized hierarchical structure of the process kernels. Blue blocks highlights independent process models; Light blue blocks strongly coupled independent process kernels; Orange blocks represent weak couplers}{figure.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Schematic of the loosely coupled scheme for our mixed-dimensional model. Brown represents advancement of PKs in time; Cyan shows intermediate steps for initialization of PKs within a single iteration.}}{10}{figure.3}}
-\newlabel{coupling-schematic}{{3}{10}{Schematic of the loosely coupled scheme for our mixed-dimensional model. Brown represents advancement of PKs in time; Cyan shows intermediate steps for initialization of PKs within a single iteration}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Active layer thickness from fine-scale modeling}}{7}{figure.2}}
+\newlabel{alt}{{2}{7}{Active layer thickness from fine-scale modeling}{figure.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Arcos Framework}{7}{section.3}}
+\newlabel{arcos-framework}{{3}{7}{Arcos Framework}{section.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Modeling Approach, Coupling Scheme, and ATS Refactoring Strategy}{8}{section.4}}
+\newlabel{mixed-dim-model}{{4}{8}{Modeling Approach, Coupling Scheme, and ATS Refactoring Strategy}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Mixed-Dimensional Modeling Approach}{8}{subsection.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces An illustration of the independent 1D subsurface columns coupled to the surface-star system. The surface system (1D cells lying on the top of corresponding columns) are not shown.}}{9}{figure.3}}
+\newlabel{surf-cols}{{3}{9}{An illustration of the independent 1D subsurface columns coupled to the surface-star system. The surface system (1D cells lying on the top of corresponding columns) are not shown}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Weakly Coupled Scheme}{9}{subsection.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A customized hierarchical structure of the process kernels. Blue blocks highlights independent process models; Light blue blocks strongly coupled independent process kernels; Orange blocks represent weak couplers.}}{10}{figure.4}}
+\newlabel{pk-tree}{{4}{10}{A customized hierarchical structure of the process kernels. Blue blocks highlights independent process models; Light blue blocks strongly coupled independent process kernels; Orange blocks represent weak couplers}{figure.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}ATS Refactoring Strategy}{10}{subsection.4.3}}
 \citation{spainter2016integrated}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Results and Discussions}{11}{section.5}}
-\newlabel{numerical-tests}{{5}{11}{Results and Discussions}{section.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Numerical Results -- A Comparative Study}{11}{subsection.5.1}}
-\newlabel{formula-exagg}{{1}{11}{Numerical Results -- A Comparative Study}{equation.5.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot.}}{12}{figure.4}}
-\newlabel{surf-location}{{4}{12}{An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot}{figure.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Comparison of the subsurface water saturation at locations 1 and 5 during the summer.}}{13}{figure.5}}
-\newlabel{ss-sat-comp}{{5}{13}{Comparison of the subsurface water saturation at locations 1 and 5 during the summer}{figure.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Speedup Study}{13}{subsection.5.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Comparison of subsurface temperatures at locations 1 and 5 during the summer.}}{14}{figure.6}}
-\newlabel{ss-temp-comp}{{6}{14}{Comparison of subsurface temperatures at locations 1 and 5 during the summer}{figure.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces An illustration of the surface ponded depths of the two schemes at locations 1 and 5 when the snow melt starts.}}{14}{figure.7}}
-\newlabel{surf-pd-comp}{{7}{14}{An illustration of the surface ponded depths of the two schemes at locations 1 and 5 when the snow melt starts}{figure.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces An illustration of the surface temperatures of the two schemes at locations 1 and 5 for the entire year. The bottom plot highlights the difference between the temperatures at location 1 and 5, though they appear quite similar in the top two plots.}}{15}{figure.8}}
-\newlabel{surf-temp-comp}{{8}{15}{An illustration of the surface temperatures of the two schemes at locations 1 and 5 for the entire year. The bottom plot highlights the difference between the temperatures at location 1 and 5, though they appear quite similar in the top two plots}{figure.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The root mean square difference of the subsurface water saturations at the selected locations of the three studies.}}{16}{figure.9}}
-\newlabel{error-plots}{{9}{16}{The root mean square difference of the subsurface water saturations at the selected locations of the three studies}{figure.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces A comparison of the computational time taken by the mixed-dimensional and 3D models.}}{17}{figure.10}}
-\newlabel{3d-lcs-speed}{{10}{17}{A comparison of the computational time taken by the mixed-dimensional and 3D models}{figure.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces An illustration of the speedup study of a simulation with 75-polygon cluster (top) and 468 polygons barrow watershed (bottom).}}{18}{figure.11}}
-\newlabel{lcs-speed}{{11}{18}{An illustration of the speedup study of a simulation with 75-polygon cluster (top) and 468 polygons barrow watershed (bottom)}{figure.11}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Subcycling Process Kernels}{19}{subsection.5.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions and Future Work}{19}{section.6}}
-\newlabel{conclusion}{{6}{19}{Conclusions and Future Work}{section.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Closing Remarks}{19}{subsection.6.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Schematic of the loosely coupled scheme for our mixed-dimensional model. Brown represents advancement of PKs in time; Cyan shows intermediate steps for initialization of PKs within a single iteration.}}{11}{figure.5}}
+\newlabel{coupling-schematic}{{5}{11}{Schematic of the loosely coupled scheme for our mixed-dimensional model. Brown represents advancement of PKs in time; Cyan shows intermediate steps for initialization of PKs within a single iteration}{figure.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results and Discussions}{12}{section.5}}
+\newlabel{numerical-tests}{{5}{12}{Results and Discussions}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Numerical Results -- A Comparative Study}{12}{subsection.5.1}}
+\newlabel{formula-exagg}{{1}{12}{Numerical Results -- A Comparative Study}{equation.5.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot.}}{13}{figure.6}}
+\newlabel{surf-location}{{6}{13}{An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Comparison of the subsurface water saturation at locations 1 and 5 during the summer.}}{14}{figure.7}}
+\newlabel{ss-sat-comp}{{7}{14}{Comparison of the subsurface water saturation at locations 1 and 5 during the summer}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Speedup Study}{14}{subsection.5.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Comparison of subsurface temperatures at locations 1 and 5 during the summer.}}{15}{figure.8}}
+\newlabel{ss-temp-comp}{{8}{15}{Comparison of subsurface temperatures at locations 1 and 5 during the summer}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces An illustration of the surface ponded depths of the two schemes at locations 1 and 5 when the snow melt starts.}}{15}{figure.9}}
+\newlabel{surf-pd-comp}{{9}{15}{An illustration of the surface ponded depths of the two schemes at locations 1 and 5 when the snow melt starts}{figure.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces An illustration of the surface temperatures of the two schemes at locations 1 and 5 for the entire year. The bottom plot highlights the difference between the temperatures at location 1 and 5, though they appear quite similar in the top two plots.}}{16}{figure.10}}
+\newlabel{surf-temp-comp}{{10}{16}{An illustration of the surface temperatures of the two schemes at locations 1 and 5 for the entire year. The bottom plot highlights the difference between the temperatures at location 1 and 5, though they appear quite similar in the top two plots}{figure.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The root mean square difference of the subsurface water saturations at the selected locations of the three studies.}}{17}{figure.11}}
+\newlabel{error-plots}{{11}{17}{The root mean square difference of the subsurface water saturations at the selected locations of the three studies}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces A comparison of the computational time taken by the mixed-dimensional and 3D models.}}{18}{figure.12}}
+\newlabel{3d-lcs-speed}{{12}{18}{A comparison of the computational time taken by the mixed-dimensional and 3D models}{figure.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces An illustration of the speedup study of a simulation with 75-polygon cluster (top) and 468 polygons barrow watershed (bottom).}}{19}{figure.13}}
+\newlabel{lcs-speed}{{13}{19}{An illustration of the speedup study of a simulation with 75-polygon cluster (top) and 468 polygons barrow watershed (bottom)}{figure.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Subcycling Process Kernels}{20}{subsection.5.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions and Future Work}{20}{section.6}}
+\newlabel{conclusion}{{6}{20}{Conclusions and Future Work}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Closing Remarks}{20}{subsection.6.1}}
 \citation{jorgenson2006abrupt,liljedahl2012ice}
 \citation{hinzman2005evidence,rowland2010arctic}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Future Directions}{21}{subsection.6.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {Appendix A}Numerical Experiments -- Code Verification}{21}{appendix.A}}
-\newlabel{code-verification}{{Appendix A}{21}{Numerical Experiments -- Code Verification}{appendix.A}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Future Directions}{22}{subsection.6.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {Appendix A}Numerical Experiments -- Code Verification}{22}{appendix.A}}
+\newlabel{code-verification}{{Appendix A}{22}{Numerical Experiments -- Code Verification}{appendix.A}{}}
 \bibdata{reference}
 \bibcite{brown1997circum}{{1}{1997}{{Brown et~al.}}{{Brown, Ferrians~Jr, Heginbottom, and Melnikov}}}
 \bibcite{jorgenson2001permafrost}{{2}{2001}{{Jorgenson et~al.}}{{Jorgenson, Racine, Walters, and Osterkamp}}}
