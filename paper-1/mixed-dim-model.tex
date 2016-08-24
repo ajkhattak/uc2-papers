@@ -151,15 +151,15 @@ Technically, our modeling strategy splits a 3D domain into $2N+1$ subdomains, wh
 
 
 \subsection{Weakly Coupled Scheme}
-The weakly coupled scheme for analyzing our mixed-dimensional model is a two-step sequential algorithm. First, we solve the surface-star thermal hydrology system without any external and exchanged sources and then compute solution of a family of one-dimensional columns. Each 1D column is a system of the subsurface thermal hydrology, surface ponding but no lateral flow, and surface energy balance. The first step mainly acts as a spatial distributor of the mass and energy, that is, distribute the pressures and temperature values across 2D overland system, and its solution serves as initial condition for the second step. That is, the surface-star system updates the one-dimensional columns before they advances in time.  After the update from the first step, we solve the family of 1D columns, and use the output of that half-step to update the surface-star pressure and temperature for the next iteration in the algorithm. As depicted in Fig.~\ref{coupling-schematic}, the top and bottom brown spots represent 2D surface-star system and 1D columns, respectively, and the cyan colors (in the middle) are intermediate steps for updating surface-star and 1D column systems. For the sake of clarity, we will refer to the pressure and temperature fields of the first step as surface-star pressure and temperature, while that of the second step will be called as subsurface and surface pressures and temperatures.
+The weakly coupled scheme for analyzing our mixed-dimensional model is a two-step sequential algorithm. First, we solve the surface-star thermal hydrology system without any external and exchanged sources and then compute solution of a family of one-dimensional columns. Each 1D column is a system of the subsurface thermal hydrology, surface ponding but no lateral flow, and surface energy balance. The first step mainly acts as a spatial distributor of the mass and energy, that is, distribute the pressures and temperature values across 2D overland system, and its solution serves as initial condition for the second step. That is, the surface-star system updates the one-dimensional columns before they advances in time. After the update from the first step, we solve the family of 1D columns, and use the output of that half-step to update the surface-star pressure and temperature for the next iteration in the algorithm. As depicted in Fig.~\ref{coupling-schematic}, the top and bottom orange spots represent 2D surface-star system and 1D columns, respectively, and the cyan colors (in the middle) are intermediate steps for updating surface-star and 1D column systems. For the sake of clarity, we will refer to the pressure and temperature fields of the first step as surface-star pressure and temperature, while that of the second step will be called as subsurface and surface pressures and temperatures.
 
 
 %\textbf{Refer to some published work related to mixed-dimensional modeling.}
 
 \begin{figure}[!htpb]
 \centering
-\includegraphics[height = 6.5cm, width=11cm]{figures/coupling-scheme.png}
-\caption{Schematic of the loosely coupled scheme for our mixed-dimensional model. Brown represents advancement of PKs in time; Cyan shows intermediate steps for initialization of PKs within a single iteration.}
+\includegraphics[height = 6.5cm, width=11cm]{figures/coupling-scheme2.png}
+\caption{Schematic of the loosely coupled scheme for our mixed-dimensional model. Orange represents advancement of PKs in time; Cyan shows intermediate steps for initialization of PKs within a single iteration.}
 \label{coupling-schematic}
 \end{figure}
 
@@ -192,7 +192,9 @@ We demonstrate three set of studies based on the variations introduced in the su
 Here $\bar{Z}$ is the exaggerated elevation, $Z$ is the original elevation with mean $\mu$, and $\alpha$ is the exaggeration parameter. Equation~(\ref{formula-exagg})  preserves the mean while the standard deviation depends on the value of $\alpha$ and is given by $0.14 \alpha$. The coefficient in front of $\alpha$ is the standard deviation of the original elevation $Z$ -- in our case $Z$ correspond to the domain shown in Fig.~\ref{surf-location}. Our three set of studies correspond to $\alpha=1,3,$ and $5$.
 These studies aim to determine (in an approximate sense) the failure of the mixed-dimensional model. In other words, since our modeling strategy is mainly based on a loosely coupled scheme thereby it should eventually results in breakdown due to significant heterogeneity in the surface elevations. We expect the model to give promising results for simulating low-gradient polygonal tundra, and believe that the values of $\alpha$ we choose provide reasonably enough variations for a domain of 100s of meter. For the sake of clarity, hereafter, we refer to the cases of $\alpha = 1, 3$ and $5$ as Study-I, II and III, respectively. \\
 Our numerical experiments confirm a high agreement between the results of the mixed-dimensional model and the 3D model at all selected location for all three studies. We present the results of study I in more detail, and it serves as a representative of the other two studies. Also, most of the presented plots correspond to the early summer. Fig.~\ref{ss-sat-comp} and~\ref{ss-temp-comp} compares the subsurface water saturations and temperatures at locations 1 and 5, respectively. The accuracy of our results is evident. The surface ponded depths and temperatures obtained with the two models are depicted in Fig.~\ref{surf-pd-comp} and~\ref{surf-temp-comp}, respectively. As expect, our results fit the 3D model's results very well. We see the same level of agreement at the other locations as well, but we are not showing them here.
-The root mean square difference in the subsurface water saturations of the two models of study-I, II, and III are shown in Fig.~\ref{error-plots}. Not surprisingly, as the value of $\alpha$ increases the error grows to some extent, but we still see the results of the mixed-dimensional model converge to the corresponding benchmark solution. The consistency of our numerical results with the fully coupled 3D simulations validate the accuracy of our scheme. 
+%The root mean square difference in the subsurface water saturations of the two models of study-I, II, and III are shown in Fig.~\ref{error-plots}.
+In Fig.~\ref{thaw-depth} we plot the annual thaw depth at five locations for the three studies, $\alpha =1, 3,$ and $5$. 
+Not surprisingly, as the value of $\alpha$ increases the annual thaw depth deviates from the results of the 3D model to some extent, but we still see the results of the mixed-dimensional model converge to the corresponding benchmark solution. The consistency of our numerical results with the fully coupled 3D simulations validate the accuracy of our scheme. 
 
 
 We have also performed simulations on a domain of 468 polygons as shown in Fig.~\ref{barrow-468}. The surface ponded depth and temperature during the snowmelt in 2012 are presented in Fig.~\ref{barrow-pd-temp}. Fully coupled 3D simulations at such a scale are computationally very expensive.
@@ -213,7 +215,7 @@ We have also performed simulations on a domain of 468 polygons as shown in Fig.~
 \centering
 \includegraphics[height = 7.5cm, width=6cm]{figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020.eps}
 \includegraphics[height = 7.5cm, width=6cm]{figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020.eps}
-\caption{Comparison of subsurface temperatures at locations 1 and 5 during the summer.}
+\caption{Comparison of subsurface temperature at locations 1 and 5 during the summer.}
 \label{ss-temp-comp}
 \end{figure}
 
@@ -235,19 +237,30 @@ We have also performed simulations on a domain of 468 polygons as shown in Fig.~
 \label{surf-temp-comp}
 \end{figure}
 
+%\begin{comment}
+%\begin{figure}[!htpb]
+%\centering
+%\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/regular/error.eps}
+%\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/dist/Elev-grad1.5m/error.eps}
+%\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/dist/Elev-grad2.5m/error.eps}
+%\caption{The root mean square difference of the subsurface water saturation at the selected locations of the three studies.}
+%\label{error-plots}
+%\end{figure}
+%\end{comment}
 
 \begin{figure}[!htpb]
 \centering
-\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/regular/error.eps}
-\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/dist/Elev-grad1.5m/error.eps}
-\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/dist/Elev-grad2.5m/error.eps}
-\caption{The root mean square difference of the subsurface water saturations at the selected locations of the three studies.}
-\label{error-plots}
+\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/annual-thaw-depth/annual_depth-alpha1.eps}
+\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/annual-thaw-depth/annual_depth-alpha3.eps}
+\includegraphics[height = 6.cm, width=10.cm]{figures/comparison/annual-thaw-depth/annual_depth-alpha5.eps}
+\caption{A comparison of the annual thaw depth at the selected locations of the three studies.}
+\label{thaw-depth}
 \end{figure}
 
+
 \begin{figure}[!htpb]
 \centering
-\includegraphics[height = 8.5cm, width=12cm]{figures/barrow-watershed-image2A.png}
+\includegraphics[height = 8.5cm, width=11cm]{figures/barrow-watershed-image-3.png}
 \caption{A watershed at Barrow, Alaska.}
 \label{barrow-468}
 \end{figure}
