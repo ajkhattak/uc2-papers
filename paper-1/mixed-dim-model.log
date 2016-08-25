@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 AUG 2016 09:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 AUG 2016 21:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -698,13 +698,13 @@ File: figures/process-tree1.png Graphic file (type png)
 Package pdftex.def Info: figures/process-tree1.png used on input line 147.
 (pdftex.def)             Requested size: 312.98564pt x 213.40196pt.
  [9 <./figures/mixed-dim-model.png>]
-<figures/coupling-scheme.png, id=200, 621.522pt x 382.5492pt>
-File: figures/coupling-scheme.png Graphic file (type png)
+<figures/coupling-scheme2.png, id=200, 621.522pt x 382.5492pt>
+File: figures/coupling-scheme2.png Graphic file (type png)
 
-<use figures/coupling-scheme.png>
-Package pdftex.def Info: figures/coupling-scheme.png used on input line 161.
+<use figures/coupling-scheme2.png>
+Package pdftex.def Info: figures/coupling-scheme2.png used on input line 161.
 (pdftex.def)             Requested size: 312.98889pt x 184.94073pt.
- [10 <./figures/process-tree1.png>] [11 <./figures/coupling-scheme.png>]
+ [10 <./figures/process-tree1.png>] [11 <./figures/coupling-scheme2.png>]
 <figures/lobster75-3d.png, id=216, 384.4764pt x 221.1462pt>
 File: figures/lobster75-3d.png Graphic file (type png)
 
@@ -714,51 +714,51 @@ Package pdftex.def Info: figures/lobster75-3d.png used on input line 184.
  [12] [13 <./figures/lobster75-3d.png>]
 Package epstopdf Info: Source file: <figures/comparison/regular/ss-sat/comp-sat
 -loc1-cycle0020.eps>
-(epstopdf)                    date: 2016-06-30 18:26:30
-(epstopdf)                    size: 29885 bytes
+(epstopdf)                    date: 2016-08-24 14:25:20
+(epstopdf)                    size: 30083 bytes
 (epstopdf)             Output file: <figures/comparison/regular/ss-sat/comp-sat
 -loc1-cycle0020-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:46
-(epstopdf)                    size: 25202 bytes
+(epstopdf)                    date: 2016-08-24 21:58:37
+(epstopdf)                    size: 25220 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
 /ss-sat/comp-sat-loc1-cycle0020-eps-converted-to.pdf figures/comparison/regular
 /ss-sat/comp-sat-loc1-cycle0020.eps>
-(epstopdf)             \includegraphics on input line 205.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted-to.pdf
-, id=246, 397.485pt x 433.62pt>
+, id=247, 397.485pt x 433.62pt>
 File: figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted-to
 .pdf>
 Package pdftex.def Info: figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0
-020-eps-converted-to.pdf used on input line 205.
+020-eps-converted-to.pdf used on input line 207.
 (pdftex.def)             Requested size: 170.72113pt x 213.39536pt.
 Package epstopdf Info: Source file: <figures/comparison/regular/ss-sat/comp-sat
 -loc5-cycle0020.eps>
-(epstopdf)                    date: 2016-06-30 18:25:29
-(epstopdf)                    size: 30393 bytes
+(epstopdf)                    date: 2016-08-24 14:27:03
+(epstopdf)                    size: 30591 bytes
 (epstopdf)             Output file: <figures/comparison/regular/ss-sat/comp-sat
 -loc5-cycle0020-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:47
-(epstopdf)                    size: 25320 bytes
+(epstopdf)                    date: 2016-08-24 21:58:37
+(epstopdf)                    size: 25937 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
 /ss-sat/comp-sat-loc5-cycle0020-eps-converted-to.pdf figures/comparison/regular
 /ss-sat/comp-sat-loc5-cycle0020.eps>
-(epstopdf)             \includegraphics on input line 206.
+(epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-converted-to.pdf
-, id=247, 397.485pt x 433.62pt>
+, id=248, 397.485pt x 433.62pt>
 File: figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-converted-to
 .pdf>
 Package pdftex.def Info: figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0
-020-eps-converted-to.pdf used on input line 206.
+020-eps-converted-to.pdf used on input line 208.
 (pdftex.def)             Requested size: 170.72113pt x 213.39536pt.
 Package epstopdf Info: Source file: <figures/comparison/regular/ss-temp/comp-te
 mp-loc1-cycle0020.eps>
@@ -766,23 +766,23 @@ mp-loc1-cycle0020.eps>
 (epstopdf)                    size: 29350 bytes
 (epstopdf)             Output file: <figures/comparison/regular/ss-temp/comp-te
 mp-loc1-cycle0020-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:47
+(epstopdf)                    date: 2016-08-24 21:58:37
 (epstopdf)                    size: 26343 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
 /ss-temp/comp-temp-loc1-cycle0020-eps-converted-to.pdf figures/comparison/regul
 ar/ss-temp/comp-temp-loc1-cycle0020.eps>
-(epstopdf)             \includegraphics on input line 214.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020-eps-converted-to.p
-df, id=248, 397.485pt x 433.62pt>
+df, id=249, 397.485pt x 433.62pt>
 File: figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use figures/comparison/regular/ss-temp/comp-temp-loc1-cycle0020-eps-converted-
 to.pdf>
 Package pdftex.def Info: figures/comparison/regular/ss-temp/comp-temp-loc1-cycl
-e0020-eps-converted-to.pdf used on input line 214.
+e0020-eps-converted-to.pdf used on input line 216.
 (pdftex.def)             Requested size: 170.72113pt x 213.39536pt.
 Package epstopdf Info: Source file: <figures/comparison/regular/ss-temp/comp-te
 mp-loc5-cycle0020.eps>
@@ -790,23 +790,23 @@ mp-loc5-cycle0020.eps>
 (epstopdf)                    size: 29358 bytes
 (epstopdf)             Output file: <figures/comparison/regular/ss-temp/comp-te
 mp-loc5-cycle0020-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:47
+(epstopdf)                    date: 2016-08-24 21:58:38
 (epstopdf)                    size: 26354 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
 /ss-temp/comp-temp-loc5-cycle0020-eps-converted-to.pdf figures/comparison/regul
 ar/ss-temp/comp-temp-loc5-cycle0020.eps>
-(epstopdf)             \includegraphics on input line 215.
+(epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020-eps-converted-to.p
-df, id=249, 397.485pt x 433.62pt>
+df, id=250, 397.485pt x 433.62pt>
 File: figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use figures/comparison/regular/ss-temp/comp-temp-loc5-cycle0020-eps-converted-
 to.pdf>
 Package pdftex.def Info: figures/comparison/regular/ss-temp/comp-temp-loc5-cycl
-e0020-eps-converted-to.pdf used on input line 215.
+e0020-eps-converted-to.pdf used on input line 217.
 (pdftex.def)             Requested size: 170.72113pt x 213.39536pt.
 Package epstopdf Info: Source file: <figures/comparison/regular/ponded-depth/co
 mp-pd-location1.eps>
@@ -814,23 +814,23 @@ mp-pd-location1.eps>
 (epstopdf)                    size: 32337 bytes
 (epstopdf)             Output file: <figures/comparison/regular/ponded-depth/co
 mp-pd-location1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:48
+(epstopdf)                    date: 2016-08-24 21:58:38
 (epstopdf)                    size: 22075 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
 /ponded-depth/comp-pd-location1-eps-converted-to.pdf figures/comparison/regular
 /ponded-depth/comp-pd-location1.eps>
-(epstopdf)             \includegraphics on input line 222.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ponded-depth/comp-pd-location1-eps-converted-to.pdf
-, id=250, 578.16pt x 433.62pt>
+, id=251, 578.16pt x 433.62pt>
 File: figures/comparison/regular/ponded-depth/comp-pd-location1-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use figures/comparison/regular/ponded-depth/comp-pd-location1-eps-converted-to
 .pdf>
 Package pdftex.def Info: figures/comparison/regular/ponded-depth/comp-pd-locati
-on1-eps-converted-to.pdf used on input line 222.
+on1-eps-converted-to.pdf used on input line 224.
 (pdftex.def)             Requested size: 170.71451pt x 213.39536pt.
 Package epstopdf Info: Source file: <figures/comparison/regular/ponded-depth/co
 mp-pd-location5.eps>
@@ -838,23 +838,23 @@ mp-pd-location5.eps>
 (epstopdf)                    size: 32807 bytes
 (epstopdf)             Output file: <figures/comparison/regular/ponded-depth/co
 mp-pd-location5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:48
+(epstopdf)                    date: 2016-08-24 21:58:39
 (epstopdf)                    size: 22258 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
 /ponded-depth/comp-pd-location5-eps-converted-to.pdf figures/comparison/regular
 /ponded-depth/comp-pd-location5.eps>
-(epstopdf)             \includegraphics on input line 223.
+(epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/ponded-depth/comp-pd-location5-eps-converted-to.pdf
-, id=251, 578.16pt x 433.62pt>
+, id=252, 578.16pt x 433.62pt>
 File: figures/comparison/regular/ponded-depth/comp-pd-location5-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use figures/comparison/regular/ponded-depth/comp-pd-location5-eps-converted-to
 .pdf>
 Package pdftex.def Info: figures/comparison/regular/ponded-depth/comp-pd-locati
-on5-eps-converted-to.pdf used on input line 223.
+on5-eps-converted-to.pdf used on input line 225.
 (pdftex.def)             Requested size: 170.71451pt x 213.39536pt.
 Package epstopdf Info: Source file: <figures/comparison/regular/surf-temp/comp-
 temp-location1.eps>
@@ -862,115 +862,118 @@ temp-location1.eps>
 (epstopdf)                    size: 44725 bytes
 (epstopdf)             Output file: <figures/comparison/regular/surf-temp/comp-
 temp-location1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:29:59
+(epstopdf)                    date: 2016-08-24 21:58:39
 (epstopdf)                    size: 71498 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
 /surf-temp/comp-temp-location1-eps-converted-to.pdf figures/comparison/regular/
 surf-temp/comp-temp-location1.eps>
-(epstopdf)             \includegraphics on input line 230.
+(epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/comparison/regular/surf-temp/comp-temp-location1-eps-converted-to.pdf,
- id=252, 578.16pt x 433.62pt>
+ id=253, 578.16pt x 433.62pt>
 File: figures/comparison/regular/surf-temp/comp-temp-location1-eps-converted-to
 .pdf Graphic file (type pdf)
 
 <use figures/comparison/regular/surf-temp/comp-temp-location1-eps-converted-to.
 pdf>
 Package pdftex.def Info: figures/comparison/regular/surf-temp/comp-temp-locatio
-n1-eps-converted-to.pdf used on input line 230.
+n1-eps-converted-to.pdf used on input line 232.
 (pdftex.def)             Requested size: 312.97809pt x 213.39536pt.
-Package epstopdf Info: Source file: <figures/comparison/regular/error.eps>
-(epstopdf)                    date: 2016-08-12 09:35:00
-(epstopdf)                    size: 35436 bytes
-(epstopdf)             Output file: <figures/comparison/regular/error-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:49
-(epstopdf)                    size: 21827 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/comparison/regular
-/error-eps-converted-to.pdf figures/comparison/regular/error.eps>
-(epstopdf)             \includegraphics on input line 241.
+Package epstopdf Info: Source file: <figures/comparison/annual-thaw-depth/annua
+l_depth-1.eps>
+(epstopdf)                    date: 2016-08-24 19:07:48
+(epstopdf)                    size: 35993 bytes
+(epstopdf)             Output file: <figures/comparison/annual-thaw-depth/annua
+l_depth-1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-24 21:58:40
+(epstopdf)                    size: 25141 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/annual-
+thaw-depth/annual_depth-1-eps-converted-to.pdf figures/comparison/annual-thaw-d
+epth/annual_depth-1.eps>
+(epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/comparison/regular/error-eps-converted-to.pdf, id=253, 578.16pt x 433.
-62pt>
-File: figures/comparison/regular/error-eps-converted-to.pdf Graphic file (type 
-pdf)
- <use figures/comparison/regular/error-eps-converted-to.pdf>
-Package pdftex.def Info: figures/comparison/regular/error-eps-converted-to.pdf 
-used on input line 241.
+<figures/comparison/annual-thaw-depth/annual_depth-1-eps-converted-to.pdf, id=2
+54, 578.16pt x 433.62pt>
+File: figures/comparison/annual-thaw-depth/annual_depth-1-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use figures/comparison/annual-thaw-depth/annual_depth-1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comparison/annual-thaw-depth/annual_depth-1-ep
+s-converted-to.pdf used on input line 253.
 (pdftex.def)             Requested size: 284.52713pt x 170.71892pt.
-Package epstopdf Info: Source file: <figures/comparison/dist/Elev-grad1.5m/erro
-r.eps>
-(epstopdf)                    date: 2016-08-12 09:36:53
-(epstopdf)                    size: 36638 bytes
-(epstopdf)             Output file: <figures/comparison/dist/Elev-grad1.5m/erro
-r-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:49
-(epstopdf)                    size: 22807 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/comparison/dist/El
-ev-grad1.5m/error-eps-converted-to.pdf figures/comparison/dist/Elev-grad1.5m/er
-ror.eps>
-(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Source file: <figures/comparison/annual-thaw-depth/annua
+l_depth-3.eps>
+(epstopdf)                    date: 2016-08-24 19:05:34
+(epstopdf)                    size: 37175 bytes
+(epstopdf)             Output file: <figures/comparison/annual-thaw-depth/annua
+l_depth-3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-24 21:58:40
+(epstopdf)                    size: 26074 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/annual-
+thaw-depth/annual_depth-3-eps-converted-to.pdf figures/comparison/annual-thaw-d
+epth/annual_depth-3.eps>
+(epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf, id=254, 578.
-16pt x 433.62pt>
-File: figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf Graphic 
-file (type pdf)
+<figures/comparison/annual-thaw-depth/annual_depth-3-eps-converted-to.pdf, id=2
+55, 578.16pt x 433.62pt>
+File: figures/comparison/annual-thaw-depth/annual_depth-3-eps-converted-to.pdf 
+Graphic file (type pdf)
 
-<use figures/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf>
-Package pdftex.def Info: figures/comparison/dist/Elev-grad1.5m/error-eps-conver
-ted-to.pdf used on input line 242.
+<use figures/comparison/annual-thaw-depth/annual_depth-3-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comparison/annual-thaw-depth/annual_depth-3-ep
+s-converted-to.pdf used on input line 254.
 (pdftex.def)             Requested size: 284.52713pt x 170.71892pt.
-Package epstopdf Info: Source file: <figures/comparison/dist/Elev-grad2.5m/erro
-r.eps>
-(epstopdf)                    date: 2016-08-12 09:38:54
-(epstopdf)                    size: 36381 bytes
-(epstopdf)             Output file: <figures/comparison/dist/Elev-grad2.5m/erro
-r-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-12 13:27:49
-(epstopdf)                    size: 22687 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/comparison/dist/El
-ev-grad2.5m/error-eps-converted-to.pdf figures/comparison/dist/Elev-grad2.5m/er
-ror.eps>
-(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Source file: <figures/comparison/annual-thaw-depth/annua
+l_depth-5.eps>
+(epstopdf)                    date: 2016-08-24 19:04:04
+(epstopdf)                    size: 37000 bytes
+(epstopdf)             Output file: <figures/comparison/annual-thaw-depth/annua
+l_depth-5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-08-24 21:58:40
+(epstopdf)                    size: 25951 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/comparison/annual-
+thaw-depth/annual_depth-5-eps-converted-to.pdf figures/comparison/annual-thaw-d
+epth/annual_depth-5.eps>
+(epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf, id=255, 578.
-16pt x 433.62pt>
-File: figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf Graphic 
-file (type pdf)
+<figures/comparison/annual-thaw-depth/annual_depth-5-eps-converted-to.pdf, id=2
+56, 578.16pt x 433.62pt>
+File: figures/comparison/annual-thaw-depth/annual_depth-5-eps-converted-to.pdf 
+Graphic file (type pdf)
 
-<use figures/comparison/dist/Elev-grad2.5m/error-eps-converted-to.pdf>
-Package pdftex.def Info: figures/comparison/dist/Elev-grad2.5m/error-eps-conver
-ted-to.pdf used on input line 243.
+<use figures/comparison/annual-thaw-depth/annual_depth-5-eps-converted-to.pdf>
+Package pdftex.def Info: figures/comparison/annual-thaw-depth/annual_depth-5-ep
+s-converted-to.pdf used on input line 255.
 (pdftex.def)             Requested size: 284.52713pt x 170.71892pt.
 
 
-LaTeX Warning: Float too large for page by 2.65675pt on input line 246.
+LaTeX Warning: Float too large for page by 2.65675pt on input line 258.
 
-<figures/barrow-watershed-image2A.png, id=256, 545.3976pt x 291.9708pt>
-File: figures/barrow-watershed-image2A.png Graphic file (type png)
+<figures/barrow-watershed-image-3.png, id=257, 1027.84pt x 978.65625pt>
+File: figures/barrow-watershed-image-3.png Graphic file (type png)
 
-<use figures/barrow-watershed-image2A.png>
-Package pdftex.def Info: figures/barrow-watershed-image2A.png used on input lin
-e 250.
-(pdftex.def)             Requested size: 341.43855pt x 241.84563pt.
+<use figures/barrow-watershed-image-3.png>
+Package pdftex.def Info: figures/barrow-watershed-image-3.png used on input lin
+e 263.
+(pdftex.def)             Requested size: 312.98103pt x 241.84111pt.
 
-<figures/surface-ponded-depth3-time13-4507.png, id=257, 1027.84pt x 965.6075pt>
+<figures/surface-ponded-depth3-time13-4507.png, id=258, 1027.84pt x 965.6075pt>
 File: figures/surface-ponded-depth3-time13-4507.png Graphic file (type png)
 <use figures/surface-ponded-depth3-time13-4507.png>
 Package pdftex.def Info: figures/surface-ponded-depth3-time13-4507.png used on 
-input line 257.
+input line 270.
 (pdftex.def)             Requested size: 341.431pt x 213.39201pt.
 
-<figures/surface-temperature3-time13-4644.png, id=258, 1027.84pt x 965.6075pt>
+<figures/surface-temperature3-time13-4644.png, id=259, 1027.84pt x 965.6075pt>
 File: figures/surface-temperature3-time13-4644.png Graphic file (type png)
 
 <use figures/surface-temperature3-time13-4644.png>
 Package pdftex.def Info: figures/surface-temperature3-time13-4644.png used on i
-nput line 258.
+nput line 271.
 (pdftex.def)             Requested size: 341.431pt x 213.39201pt.
  [14 <./figures/comparison/regular/ss-sat/comp-sat-loc1-cycle0020-eps-converted
 -to.pdf> <./figures/comparison/regular/ss-sat/comp-sat-loc5-cycle0020-eps-conve
@@ -988,14 +991,14 @@ to.pdf>
 (epstopdf)                    size: 19525 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/compare3d-lcs-spee
 d-eps-converted-to.pdf figures/compare3d-lcs-speed.eps>
-(epstopdf)             \includegraphics on input line 272.
+(epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare3d-lcs-speed-eps-converted-to.pdf, id=510, 578.16pt x 433.62pt>
+<figures/compare3d-lcs-speed-eps-converted-to.pdf, id=514, 578.16pt x 433.62pt>
 File: figures/compare3d-lcs-speed-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/compare3d-lcs-speed-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare3d-lcs-speed-eps-converted-to.pdf used 
-on input line 272.
+on input line 285.
 (pdftex.def)             Requested size: 284.52713pt x 184.9444pt.
 Package epstopdf Info: Source file: <figures/speedup-lcs-lobster.eps>
 (epstopdf)                    date: 2016-07-01 17:13:38
@@ -1006,14 +1009,14 @@ to.pdf>
 (epstopdf)                    size: 17777 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/speedup-lcs-lobste
 r-eps-converted-to.pdf figures/speedup-lcs-lobster.eps>
-(epstopdf)             \includegraphics on input line 280.
+(epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/speedup-lcs-lobster-eps-converted-to.pdf, id=511, 578.16pt x 433.62pt>
+<figures/speedup-lcs-lobster-eps-converted-to.pdf, id=515, 578.16pt x 433.62pt>
 File: figures/speedup-lcs-lobster-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/speedup-lcs-lobster-eps-converted-to.pdf>
 Package pdftex.def Info: figures/speedup-lcs-lobster-eps-converted-to.pdf used 
-on input line 280.
+on input line 293.
 (pdftex.def)             Requested size: 284.52713pt x 184.9444pt.
 Package epstopdf Info: Source file: <figures/speedup-lcs-barrow.eps>
 (epstopdf)                    date: 2016-07-01 17:17:27
@@ -1024,35 +1027,35 @@ o.pdf>
 (epstopdf)                    size: 17019 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/speedup-lcs-barrow
 -eps-converted-to.pdf figures/speedup-lcs-barrow.eps>
-(epstopdf)             \includegraphics on input line 281.
+(epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/speedup-lcs-barrow-eps-converted-to.pdf, id=512, 578.16pt x 433.62pt>
+<figures/speedup-lcs-barrow-eps-converted-to.pdf, id=516, 578.16pt x 433.62pt>
 File: figures/speedup-lcs-barrow-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/speedup-lcs-barrow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/speedup-lcs-barrow-eps-converted-to.pdf used o
-n input line 281.
+n input line 294.
 (pdftex.def)             Requested size: 284.52713pt x 184.9444pt.
  [16 <./figures/comparison/regular/surf-temp/comp-temp-location1-eps-converted-
-to.pdf>] [17 <./figures/comparison/regular/error-eps-converted-to.pdf> <./figur
-es/comparison/dist/Elev-grad1.5m/error-eps-converted-to.pdf> <./figures/compari
-son/dist/Elev-grad2.5m/error-eps-converted-to.pdf>] [18 <./figures/barrow-water
-shed-image2A.png>]
-[19 <./figures/surface-ponded-depth3-time13-4507.png> <./figures/surface-temper
-ature3-time13-4644.png>] [20 <./figures/compare3d-lcs-speed-eps-converted-to.pd
-f>] [21 <./figures/speedup-lcs-lobster-eps-converted-to.pdf> <./figures/speedup
--lcs-barrow-eps-converted-to.pdf>] [22]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 323.
+to.pdf>] [17 <./figures/comparison/annual-thaw-depth/annual_depth-1-eps-convert
+ed-to.pdf> <./figures/comparison/annual-thaw-depth/annual_depth-3-eps-converted
+-to.pdf> <./figures/comparison/annual-thaw-depth/annual_depth-5-eps-converted-t
+o.pdf>] [18 <./figures/barrow-watershed-image-3.png (PNG copy)>] [19 <./figures
+/surface-ponded-depth3-time13-4507.png> <./figures/surface-temperature3-time13-
+4644.png>] [20 <./figures/compare3d-lcs-speed-eps-converted-to.pdf>] [21 <./fig
+ures/speedup-lcs-lobster-eps-converted-to.pdf> <./figures/speedup-lcs-barrow-ep
+s-converted-to.pdf>]
+[22]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 336.
 
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 323.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 336.
 
-Overfull \hbox (7.38945pt too wide) in paragraph at lines 323--326
+Overfull \hbox (7.38945pt too wide) in paragraph at lines 336--339
 []\OT1/cmr/m/n/10 Problem Test 1 (Sub-sur-face Flow): We con-sider mul-ti-ple s
 ub-sur-face columns
  []
@@ -1062,19 +1065,19 @@ ub-sur-face columns
 Package natbib Warning: There were undefined citations.
 
 [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 347.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
  (./mixed-dim-model.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 347.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `mixed-dim-model.out' has not changed.
 (rerunfilecheck)             Checksum: 2CC91D85118178DAD7DAFEDB6E1FEF9A;1069.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
  16623 strings out of 493089
- 316628 string characters out of 6134842
- 378668 words of memory out of 5000000
+ 316743 string characters out of 6134842
+ 378638 words of memory out of 5000000
  19703 multiletter control sequences out of 15000+600000
  6339 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1089,10 +1092,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on mixed-dim-model.pdf (28 pages, 1548681 bytes).
+Output written on mixed-dim-model.pdf (28 pages, 1479495 bytes).
 PDF statistics:
- 921 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
+ 964 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
  94 named destinations out of 1000 (max. 500000)
  243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
