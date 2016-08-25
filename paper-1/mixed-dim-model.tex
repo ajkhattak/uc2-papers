@@ -316,7 +316,6 @@ A sequential coupling algorithm is used to analyze our mixed-dimensional model. 
 
 We compare our numerical results with a fully coupled surface and subsurface scheme to demonstrate the efficiency and accuracy of our modeling approach. The fully coupled scheme acts as a benchmark for our scheme. Numerical results show our scheme closely approximates the fully coupled system but is significantly more efficient. Further, it allows for efficient tracking of thaw-induced subsidence, enables subcycling individual subdomains, and avoids any mesh tangling that can result from representing dynamic topography in a three-dimensional simulation.
 
-
 Lastly, our numerical simulator not only supports subdomains modeling techniques but is also flexible regarding future extensions. We can effectively incorporate many processes (physical, chemical, biological and geological processes) and let them interact through MPCs. 
  
 
@@ -324,6 +323,7 @@ Lastly, our numerical simulator not only supports subdomains modeling techniques
 \subsection{Future Directions}
 We attempt to provide process-rich simulations capability of the permafrost regions at watershed-scale. However, the work is not yet complete, we intend to  extend this capability to address more challenging problems in the near future. A next step would be to incorporate a subgrid model for dynamic microtopography. Thawing of permafrost can cause ice-wedge polygons to deform, mold and change the landscape (low-centered polygons can transform to high-centered polygons)~\cite{jorgenson2006abrupt,liljedahl2012ice}. Further, it can bring substantial changes in hydrology and soil moisture, can alter the drainage network, and transform a dry region to a wetland ecosystem~\cite{hinzman2005evidence,rowland2010arctic}. Our modeling strategy is designed in a way that can easily allow to track thaw-induced subsidence in simulating permafrost dynamic because we are mainly working with one-dimensional columns (i.e., the discretization is based on independent 1D columns).
 
+The framework could also be used to spinup 3D models in other surface/subsurface flow problems -- initializing a 3D model is a time consuming task. In addition, the loosely coupled scheme along with subcycling process can be utilize in fully 3D simulations to reduce computational time. 
 
 
 
