@@ -298,7 +298,15 @@ It can be seen that for a fixed number of processors, the computational time dec
 
 \subsection{Subcycling Process Kernels}
 Subcycling is a multi time stepping approach in simulations. The idea is to assign a suitable local time-step to each subdomain rather than one single global time-step. The subcycling is a very convenient approach for simulating permafrost type regions because during the time of snowmelt and snow accumulation, the time-step of the numerical methods is relatively smaller, and a reasonable amount of computational time is spent during these periods. Further, in permafrost simulations, due to the spatial variations in the thermal and hydrological conditions the phase change is mainly local, but its affects are global pertaining to the time-step. \\
-Our mixed-dimensional modeling approach efficiently allows subcycling PKs because we discretize subsurface as independent columns/subdomains. Thereby the subdomains can advance in time with their preferred time-steps until they hit the synchronized time. We see a 15-20\% decrease in the computational time as compared to no subcycling simulations. We intend to explore this topic and report a detailed study in near future as we believe the subcycling approach should significantly reduce computational time.
+Our mixed-dimensional modeling approach efficiently allows subcycling PKs because we discretize subsurface as independent columns/subdomains. Thereby the subdomains can advance in time with their preferred time-steps until they hit the synchronized time. Fig.~\ref{subcycle-time-reduciton} displays percentage reduction in the simulation time for the domains consisting of 21, 75 and 468 polygons. With the increase in the number of subsurface columns the computational decreases, and we see up to 40\% decrease in the computational time in comparison with simulations without subcycling. The choice of the synchronization time is crucial, and requires more optimization. We intend to explore this topic and report a study in near future as we believe that the subcycling approach should significantly reduce computational time -- percentage of the time reduction should go up to 80-90\% on bigger domains.
+
+\begin{figure}[!htpb]
+\centering
+\includegraphics[height = 6.5cm, width=10cm]{figures/subcycle-time-reduciton.eps}
+\caption{An illustration of the speedup study of a simulation with 75-polygon cluster (top) and 468 polygons barrow watershed (bottom).}
+\label{subcycle-time-reduciton}
+\end{figure}
+
 
 \section{Conclusions and Future Work}\label{conclusion}
 \subsection{Closing Remarks}
@@ -371,6 +379,7 @@ Spinup \todo{ we describe this in our ATS overview paper, so should eliminate an
 \item{Step 4. Drive the model for 10 years -- a cyclic simulation with one year averaged meteorological data. The one year averaged data is obtained by aggregating the 10 years observed meteorological data, that is, the mean value of a forcing factor (say, air temperature, humidity etc.) for a specific day per 10 years. This completes a typical spinup process in ATS, that is, initialization of the model is done. Lastly, the model was forced by 10 years data due to the availability of the observed data from 1999 to 2009 at Barrow, Alaska -- the site of our interest in this work.}
  \end{itemize}
  
+
  
  %\begin{description}
 %\item {Study-I:} Setting $\alpha  = 1$ gives the original (no exaggeration) topography. The elevation has mean 4.42 and standard deviation 0.13.
