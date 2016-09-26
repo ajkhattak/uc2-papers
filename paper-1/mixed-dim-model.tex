@@ -297,8 +297,16 @@ It can be seen that for a fixed number of processors, the computational time dec
 \end{figure}
 
 \subsection{Subcycling Process Kernels}
-Subcycling is a multi time stepping approach in simulations. The idea is to assign a suitable local time-step to each subdomain rather than one single global time-step. The subcycling is a very convenient approach for simulating permafrost type regions because during the time of snowmelt and snow accumulation, the time-step of the numerical methods is relatively smaller, and a reasonable amount of computational time is spent during these periods. Further, in permafrost simulations, due to the spatial variations in the thermal and hydrological conditions the phase change is mainly local, but its affects are global pertaining to the time-step. \\
-Our mixed-dimensional modeling approach efficiently allows subcycling PKs because we discretize subsurface as independent columns/subdomains. Thereby the subdomains can advance in time with their preferred time-steps until they hit the synchronized time. We see a 15-20\% decrease in the computational time as compared to no subcycling simulations. We intend to explore this topic and report a detailed study in near future as we believe the subcycling approach should significantly reduce computational time.
+Subcycling is a multi time stepping approach in simulations. The idea is to assign a suitable local time-step to each subdomain rather than one single global time-step. It is a very convenient approach for simulating permafrost type regions because during the time of snowmelt and snow accumulation, the time-step of the numerical methods is relatively smaller, and a reasonable amount of computational time is spent during these periods. Further, in permafrost simulations, due to the spatial variations in the thermal and hydrological conditions the phase change is mainly local, but its affects are global pertaining to the time-step. \\
+Our mixed-dimensional modeling approach efficiently allows subcycling PKs because we discretize subsurface as independent columns/subdomains. Thereby the subdomains can advance in time with their preferred time-steps until they hit the synchronized time. Fig.~\ref{subcycle-time-reduciton} displays percentage reduction in the simulation time for the domains consisting of 21, 75, and 468 polygons. With the increase in the number of subsurface columns the computational time decreases, and we see up to 40\% reduction in the computational time in comparison with simulations without subcycling. The choice of the synchronization time is crucial, and requires more optimization. We intend to explore this topic and report a study in near future as we believe that the subcycling approach should significantly reduce computational time -- percentage of the time reduction should go up to 80-90\% on bigger domains.
+
+\begin{figure}[!htpb]
+\centering
+\includegraphics[height = 6.5cm, width=10cm]{figures/subcycle-time-reduciton.eps}
+\caption{(Subcycling PKs) Percentage reduction in the computational time for the domains consisting of 21, 75 and 468 polygons. }
+\label{subcycle-time-reduciton}
+\end{figure}
+
 
 \section{Conclusions and Future Work}\label{conclusion}
 \subsection{Closing Remarks}
