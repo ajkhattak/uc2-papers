@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{40}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -125,6 +125,16 @@
 \newblock \bibinfo{journal}{Hydrogeology Journal}  (\bibinfo{year}{2013})
   \bibinfo{pages}{1--4}.
 %Type = Article
+\bibitem[{Kurylyk et~al.(2014)Kurylyk, MacQuarrie, and
+  McKenzie}]{kurylyk2014climate}
+\bibinfo{author}{B.~L. Kurylyk}, \bibinfo{author}{K.~T. MacQuarrie},
+  \bibinfo{author}{J.~M. McKenzie},
+\newblock \bibinfo{title}{Climate change impacts on groundwater and soil
+  temperatures in cold and temperate regions: Implications, mathematical
+  theory, and emerging simulation tools},
+\newblock \bibinfo{journal}{Earth-Science Reviews} \bibinfo{volume}{138}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{313--334}.
+%Type = Article
 \bibitem[{Harlan(1973)}]{harlan1973analysis}
 \bibinfo{author}{R.~Harlan},
 \newblock \bibinfo{title}{Analysis of coupled heat-fluid transport in partially
@@ -164,6 +174,15 @@
 \newblock \bibinfo{journal}{Geophysical research letters} \bibinfo{volume}{34}
   (\bibinfo{year}{2007}).
 %Type = Article
+\bibitem[{Lawrence et~al.(2012)Lawrence, Slater, and
+  Swenson}]{lawrence2012simulation}
+\bibinfo{author}{D.~M. Lawrence}, \bibinfo{author}{A.~G. Slater},
+  \bibinfo{author}{S.~C. Swenson},
+\newblock \bibinfo{title}{Simulation of present-day and future permafrost and
+  seasonally frozen ground conditions in ccsm4},
+\newblock \bibinfo{journal}{Journal of Climate} \bibinfo{volume}{25}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{2207--2225}.
+%Type = Article
 \bibitem[{McKenzie et~al.(2007)McKenzie, Voss, and
   Siegel}]{mckenzie2007groundwater}
 \bibinfo{author}{J.~M. McKenzie}, \bibinfo{author}{C.~I. Voss},
@@ -182,14 +201,36 @@
 \newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{36}
   (\bibinfo{year}{2009}).
 %Type = Article
-\bibitem[{Lawrence et~al.(2012)Lawrence, Slater, and
-  Swenson}]{lawrence2012simulation}
-\bibinfo{author}{D.~M. Lawrence}, \bibinfo{author}{A.~G. Slater},
-  \bibinfo{author}{S.~C. Swenson},
-\newblock \bibinfo{title}{Simulation of present-day and future permafrost and
-  seasonally frozen ground conditions in ccsm4},
-\newblock \bibinfo{journal}{Journal of Climate} \bibinfo{volume}{25}
-  (\bibinfo{year}{2012}) \bibinfo{pages}{2207--2225}.
+\bibitem[{Painter and Karra(2014)}]{painter2014constitutive}
+\bibinfo{author}{S.~L. Painter}, \bibinfo{author}{S.~Karra},
+\newblock \bibinfo{title}{Constitutive model for unfrozen water content in
+  subfreezing unsaturated soils},
+\newblock \bibinfo{journal}{Vadose Zone Journal} \bibinfo{volume}{13}
+  (\bibinfo{year}{2014}).
+%Type = Article
+\bibitem[{Painter(2011)}]{marsflo}
+\bibinfo{author}{S.~L. Painter},
+\newblock \bibinfo{title}{Three-phase numerical model of water migration in
+  partially frozen geological media: model formulation, validation, and
+  applications},
+\newblock \bibinfo{journal}{Computational Geosciences} \bibinfo{volume}{15}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{69--85}.
+%Type = Article
+\bibitem[{Grimm and Painter(2009)}]{grimm2009mars}
+\bibinfo{author}{R.~E. Grimm}, \bibinfo{author}{S.~L. Painter},
+\newblock \bibinfo{title}{On the secular evolution of groundwater on mars},
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{36}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{n/a--n/a}. \bibinfo{note}{L24803}.
+%Type = Article
+\bibitem[{Frampton et~al.(2011)Frampton, Painter, Lyon, and
+  Destouni}]{frampton2011}
+\bibinfo{author}{A.~Frampton}, \bibinfo{author}{S.~Painter},
+  \bibinfo{author}{S.~W. Lyon}, \bibinfo{author}{G.~Destouni},
+\newblock \bibinfo{title}{Non-isothermal, three-phase simulations of
+  near-surface flows in a model permafrost system under seasonal variability
+  and climate change},
+\newblock \bibinfo{journal}{Journal of Hydrology} \bibinfo{volume}{403}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{352 -- 359}.
 %Type = Article
 \bibitem[{Karra et~al.(2014)Karra, Painter, and Lichtner}]{karra2014three}
 \bibinfo{author}{S.~Karra}, \bibinfo{author}{S.~Painter},
@@ -199,15 +240,24 @@
 \newblock \bibinfo{journal}{Cryosphere Discuss} \bibinfo{volume}{8}
   (\bibinfo{year}{2014}) \bibinfo{pages}{149--185}.
 %Type = Article
-\bibitem[{Kurylyk et~al.(2014)Kurylyk, MacQuarrie, and
-  McKenzie}]{kurylyk2014climate}
-\bibinfo{author}{B.~L. Kurylyk}, \bibinfo{author}{K.~T. MacQuarrie},
-  \bibinfo{author}{J.~M. McKenzie},
-\newblock \bibinfo{title}{Climate change impacts on groundwater and soil
-  temperatures in cold and temperate regions: Implications, mathematical
-  theory, and emerging simulation tools},
-\newblock \bibinfo{journal}{Earth-Science Reviews} \bibinfo{volume}{138}
-  (\bibinfo{year}{2014}) \bibinfo{pages}{313--334}.
+\bibitem[{Painter et~al.(2016)Painter, Coon, Atchley, Markus, Rao, Moulton, and
+  Daniil}]{spainter2016integrated}
+\bibinfo{author}{S.~L. Painter}, \bibinfo{author}{E.~T. Coon},
+  \bibinfo{author}{A.~Atchley}, \bibinfo{author}{B.~Markus},
+  \bibinfo{author}{G.~Rao}, \bibinfo{author}{J.~D. Moulton},
+  \bibinfo{author}{S.~Daniil},
+\newblock \bibinfo{title}{Integrated surface/subsurface permafrost thermal
+  hydrology: Model formulation and proof-of-concept simulations},
+\newblock \bibinfo{journal}{Environmental Modelling \& Software}
+  \bibinfo{volume}{(submitted)} (\bibinfo{year}{2016}).
+%Type = Article
+\bibitem[{Coon et~al.(2016)Coon, Moulton, and Painter}]{ecoon2016managing}
+\bibinfo{author}{E.~T. Coon}, \bibinfo{author}{J.~D. Moulton},
+  \bibinfo{author}{S.~L. Painter},
+\newblock \bibinfo{title}{Managing complexity in simulations of land surface
+  and near-surface processes},
+\newblock \bibinfo{journal}{Environmental Modelling \& Software}
+  \bibinfo{volume}{78} (\bibinfo{year}{2016}) \bibinfo{pages}{134--149}.
 %Type = Article
 \bibitem[{Dall'Amico et~al.(2011)Dall'Amico, Endrizzi, Gruber, and
   Rigon}]{dall2011robust}
@@ -234,24 +284,16 @@
 \newblock \bibinfo{journal}{Water Science and Engineering} \bibinfo{volume}{4}
   (\bibinfo{year}{2011}) \bibinfo{pages}{357--373}.
 %Type = Article
-\bibitem[{Coon et~al.(2016)Coon, Moulton, and Painter}]{ecoon2016managing}
-\bibinfo{author}{E.~T. Coon}, \bibinfo{author}{J.~D. Moulton},
-  \bibinfo{author}{S.~L. Painter},
-\newblock \bibinfo{title}{Managing complexity in simulations of land surface
-  and near-surface processes},
-\newblock \bibinfo{journal}{Environmental Modelling \& Software}
-  \bibinfo{volume}{78} (\bibinfo{year}{2016}) \bibinfo{pages}{134--149}.
-%Type = Article
-\bibitem[{Painter et~al.(2016)Painter, Coon, Atchley, Markus, Rao, Moulton, and
-  Daniil}]{spainter2016integrated}
-\bibinfo{author}{S.~L. Painter}, \bibinfo{author}{E.~T. Coon},
-  \bibinfo{author}{A.~Atchley}, \bibinfo{author}{B.~Markus},
-  \bibinfo{author}{G.~Rao}, \bibinfo{author}{J.~D. Moulton},
-  \bibinfo{author}{S.~Daniil},
-\newblock \bibinfo{title}{Integrated surface/subsurface permafrost thermal
-  hydrology: Model formulation and proof-of-concept simulations},
-\newblock \bibinfo{journal}{Environmental Modelling \& Software}
-  \bibinfo{volume}{(submitted)} (\bibinfo{year}{2016}).
+\bibitem[{Hazenberg et~al.(2015)Hazenberg, Fang, Broxton, Gochis, Niu,
+  Pelletier, Troch, and Zeng}]{hybrid3D}
+\bibinfo{author}{P.~Hazenberg}, \bibinfo{author}{Y.~Fang},
+  \bibinfo{author}{P.~Broxton}, \bibinfo{author}{D.~Gochis},
+  \bibinfo{author}{G.-Y. Niu}, \bibinfo{author}{J.~D. Pelletier},
+  \bibinfo{author}{P.~A. Troch}, \bibinfo{author}{X.~Zeng},
+\newblock \bibinfo{title}{A hybrid-3d hillslope hydrological model for use in
+  earth system models},
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{51}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{8218--8239}.
 %Type = Article
 \bibitem[{Moulton et~al.(2012)Moulton, Berndt, Garimella, Prichett-Sheats,
   Hammond, Day, and Meza}]{moulton2012high}
@@ -262,6 +304,28 @@
 \newblock \bibinfo{title}{High-level design of amanzi, the multi-process high
   performance computing simulator, office of environmental management, united
   states department of energy, washington dc}  (\bibinfo{year}{2012}).
+%Type = Article
+\bibitem[{Atchley et~al.(2015)Atchley, Painter, Harp, Coon, Wilson, Liljedahl,
+  and Romanovsky}]{atchley2015}
+\bibinfo{author}{A.~L. Atchley}, \bibinfo{author}{S.~L. Painter},
+  \bibinfo{author}{D.~R. Harp}, \bibinfo{author}{E.~T. Coon},
+  \bibinfo{author}{C.~J. Wilson}, \bibinfo{author}{A.~K. Liljedahl},
+  \bibinfo{author}{V.~E. Romanovsky},
+\newblock \bibinfo{title}{Using field observations to inform thermal hydrology
+  models of permafrost dynamics with ats (v0.83)},
+\newblock \bibinfo{journal}{Geoscientific Model Development}
+  \bibinfo{volume}{8} (\bibinfo{year}{2015}) \bibinfo{pages}{2701--2722}.
+%Type = Article
+\bibitem[{Atchley et~al.(2016)Atchley, Coon, Painter, Harp, and
+  Wilson}]{atchley2016}
+\bibinfo{author}{A.~L. Atchley}, \bibinfo{author}{E.~T. Coon},
+  \bibinfo{author}{S.~L. Painter}, \bibinfo{author}{D.~R. Harp},
+  \bibinfo{author}{C.~J. Wilson},
+\newblock \bibinfo{title}{Influences and interactions of inundation, peat, and
+  snow on active layer thickness},
+\newblock \bibinfo{journal}{Geophysical Research Letters} \bibinfo{volume}{43}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{5116--5123}.
+  \bibinfo{note}{2016GL068550}.
 %Type = Article
 \bibitem[{Jorgenson et~al.(2006)Jorgenson, Shur, and
   Pullman}]{jorgenson2006abrupt}
