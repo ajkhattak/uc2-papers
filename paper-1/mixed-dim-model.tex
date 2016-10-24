@@ -161,11 +161,26 @@ The operator splitting scheme for advancing our mixed-dimensional model is a two
 
 
 \subsection{ATS Refactoring Strategy}
-The ATS was significantly refactored to accommodate the above customized weak MPC. The refactoring allows multiple instances of a given PK, each attached to a different mesh representing a subdomain of the primary mesh. This stateless structure permits each surface and subsurface subdomain to have its own domain name, say 
-column$\_n$, surface$\_$column$\_n$, $n=1,2,3, \dots$, N. In fact, the refactoring strategy prefixes the variables (primary, secondary, and independent) with their corresponding subdomain names (e.g., column$\_n$-pressure, column$\_n$-temperature, $n=1,2,3, \dots$, N) -- that yields each PK in its most general form. These generic PKs now allow to construct any type of customize MPC for mixed-dimensional modeling technique.
+The ATS was significantly refactored to accommodate the above customized scheme.
+Arcos's state object stores a dynamic, runtime-determined set of simulation data.
+Each data is identified by a unique key, e.g. ``ponded\_depth'', and a set of metadata including domain of applicability, mesh entity, number of degrees of freedom, etc.
+In order for each PK to be instantiated multiple times, that PK's data was altered to enforce uniqueness of its keys by prefixing a domain identifier such as ``column\_0\_surface-ponded\_depth''.
+This refactoring allows multiple instances of any given PK, each attached to a different mesh representing a subdomain of the primary mesh.
 
-Complexity of the multiphysics PK tree in our modeling strategy could not have been achieved without the Arcos framework. Though the complexity in the PK tree is evident but additional complications are intended as we include more processes (physical, chemical, biological and geological processes) and their mutual interactions. All these processes are equally important for an accurate and reliable long-term projections of permafrost regions. That said, the refactored ATS is more effective in addressing important challenges in the permafrost thawing in warming climate.
+Furthermore, Amanzi-ATS relies on a meshing infrastructure, MSTK, \cite{}  which can generate meshes as subdomains or subsets of existing meshes.
+This framework was extended to allow column meshes to be generated from an existing three-dimensional mesh.
+In this workflow, a surface mesh consisting of the surface polygons are extruded vertically, following pre-determined soil horizon structure, to create a 3D mesh.
+By insisting that the extrusion process works only in the vertical, well-defined columns then exist in the the three-dimensional mesh.
+At run-time, columns can then be identified, and extracted to form a one-dimensional mesh.
+This mesh is altered to ensure it is a one-dimensional submanifold of three-dimensional space, i.e. each cell has two faces, and all face-normals are $\tinyfrac{+}{-} \hat{z}$.
+Once this is done, Amanzi-ATS's existing operators can work on this mesh without changes.
+Furthermore, this mesh follows polygonal ground, and therefore consists of stacked polygonal-prisms.
+Few mesh capabilities support this fully-unstructured mesh type; a Silo\cite{} capability was added to to Amanzi-ATS's existing output options to enable visualization of the resulting solution.
 
+Each of these refactors was accomplished in reasonable time thanks to a close adherance to computational software best-practices.
+A series of unit and regression tests were added for each new capability, and the existing regression tests were updated with the domain prefixes.
+Version control enabled close collaboration on this process across multiple developers, and project-management Kanban tools were used to ensure each developer in the workflow knew the needs of the client code component.
+These best-practices, along with the use of libraries such as Silo, MSTK, and Arcos, greatly improved the efficiency of what otherwise would have been a significant development effort.
 
 \section{Results and Discussions}\label{numerical-tests}
 
