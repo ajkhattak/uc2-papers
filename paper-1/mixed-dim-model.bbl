@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{43}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -239,25 +239,34 @@
   in permafrost-affected regions},
 \newblock \bibinfo{journal}{Cryosphere Discuss} \bibinfo{volume}{8}
   (\bibinfo{year}{2014}) \bibinfo{pages}{149--185}.
+%Type = Misc
+\bibitem[{Lichtner et~al.(2013)Lichtner, Hammond, Lu, Karra, Bisht, Andre,
+  Mills, and Kumar}]{pflotran-web-page}
+\bibinfo{author}{P.~C. Lichtner}, \bibinfo{author}{G.~E. Hammond},
+  \bibinfo{author}{C.~Lu}, \bibinfo{author}{S.~Karra},
+  \bibinfo{author}{G.~Bisht}, \bibinfo{author}{B.~Andre},
+  \bibinfo{author}{R.~T. Mills}, \bibinfo{author}{J.~Kumar},
+  \bibinfo{title}{{PFLOTRAN} {W}eb page}, \bibinfo{year}{2013}.
+  \bibinfo{note}{Http://www.pflotran.org}.
 %Type = Article
-\bibitem[{Painter et~al.(2016)Painter, Coon, Atchley, Markus, Rao, Moulton, and
-  Daniil}]{spainter2016integrated}
+\bibitem[{Painter et~al.(2016)Painter, Coon, Atchley, Berndt, Garimella,
+  Moulton, Svyatskiy, and Wilson}]{spainter2016integrated}
 \bibinfo{author}{S.~L. Painter}, \bibinfo{author}{E.~T. Coon},
-  \bibinfo{author}{A.~Atchley}, \bibinfo{author}{B.~Markus},
-  \bibinfo{author}{G.~Rao}, \bibinfo{author}{J.~D. Moulton},
-  \bibinfo{author}{S.~Daniil},
+  \bibinfo{author}{A.~L. Atchley}, \bibinfo{author}{M.~Berndt},
+  \bibinfo{author}{R.~Garimella}, \bibinfo{author}{J.~D. Moulton},
+  \bibinfo{author}{D.~Svyatskiy}, \bibinfo{author}{C.~J. Wilson},
 \newblock \bibinfo{title}{Integrated surface/subsurface permafrost thermal
   hydrology: Model formulation and proof-of-concept simulations},
-\newblock \bibinfo{journal}{Environmental Modelling \& Software}
-  \bibinfo{volume}{(submitted)} (\bibinfo{year}{2016}).
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{52}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{6062--6077}.
 %Type = Article
 \bibitem[{Coon et~al.(2016)Coon, Moulton, and Painter}]{ecoon2016managing}
 \bibinfo{author}{E.~T. Coon}, \bibinfo{author}{J.~D. Moulton},
   \bibinfo{author}{S.~L. Painter},
 \newblock \bibinfo{title}{Managing complexity in simulations of land surface
   and near-surface processes},
-\newblock \bibinfo{journal}{Environmental Modelling \& Software}
-  \bibinfo{volume}{78} (\bibinfo{year}{2016}) \bibinfo{pages}{134--149}.
+\newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{78}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{134--149}.
 %Type = Article
 \bibitem[{Dall'Amico et~al.(2011)Dall'Amico, Endrizzi, Gruber, and
   Rigon}]{dall2011robust}
@@ -294,6 +303,11 @@
   earth system models},
 \newblock \bibinfo{journal}{Water Resources Research} \bibinfo{volume}{51}
   (\bibinfo{year}{2015}) \bibinfo{pages}{8218--8239}.
+%Type = Misc
+\bibitem[{Coon(2016)}]{ats-website}
+\bibinfo{author}{E.~T. Coon}, \bibinfo{title}{{A}dvanced {T}errestrial
+  {Simulator} {W}eb page}, \bibinfo{year}{2016}.
+  \bibinfo{note}{{h}ttp://github.com/amanzi/ats}.
 %Type = Article
 \bibitem[{Moulton et~al.(2012)Moulton, Berndt, Garimella, Prichett-Sheats,
   Hammond, Day, and Meza}]{moulton2012high}
@@ -304,6 +318,17 @@
 \newblock \bibinfo{title}{High-level design of amanzi, the multi-process high
   performance computing simulator, office of environmental management, united
   states department of energy, washington dc}  (\bibinfo{year}{2012}).
+%Type = Article
+\bibitem[{Garimella et~al.(2014)Garimella, Perkins, Buksas, Berndt, Lipnikov,
+  Coon, Moulton, and Painter}]{garimella-2014-mstk}
+\bibinfo{author}{R.~V. Garimella}, \bibinfo{author}{W.~A. Perkins},
+  \bibinfo{author}{M.~W. Buksas}, \bibinfo{author}{M.~Berndt},
+  \bibinfo{author}{K.~Lipnikov}, \bibinfo{author}{E.~Coon},
+  \bibinfo{author}{J.~D. Moulton}, \bibinfo{author}{S.~L. Painter},
+\newblock \bibinfo{title}{Mesh infrastructure for coupled multiprocess
+  geophysical simulations},
+\newblock \bibinfo{journal}{Procedia Engineering} \bibinfo{volume}{82}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{34 -- 45}.
 %Type = Article
 \bibitem[{Atchley et~al.(2015)Atchley, Painter, Harp, Coon, Wilson, Liljedahl,
   and Romanovsky}]{atchley2015}
