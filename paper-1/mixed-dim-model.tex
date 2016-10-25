@@ -176,7 +176,7 @@ At run-time, columns can then be identified, and extracted to form a one-dimensi
 This mesh is altered to ensure it is a one-dimensional submanifold of three-dimensional space, i.e. each cell has two faces, and all face-normals are $\pm \hat{z}$.
 Once this is done, Amanzi-ATS's existing operators can work on this mesh without changes.
 Furthermore, this mesh follows polygonal ground, and therefore consists of stacked polygonal-prisms.
-Few mesh capabilities support this fully-unstructured mesh type; a Silo\cite{} capability was added to to Amanzi-ATS's existing output options to enable visualization of the resulting solution.
+Few mesh capabilities support this fully-unstructured mesh type; a Silo\cite{silo} capability was added to to Amanzi-ATS's existing output options to enable visualization of the resulting solution.
 
 Each of these refactors was accomplished in reasonable time thanks to a close adherance to computational software best-practices.
 A series of unit and regression tests were added for each new capability, and the existing regression tests were updated with the domain prefixes.
