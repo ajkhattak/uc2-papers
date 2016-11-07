@@ -71,7 +71,11 @@
 
 \begin{abstract}
 Integrated surface/subsurface models for simulating the thermal hydrology of permafrost-affected regions in a warming climate have recently become available, but computational demands of those new process-rich simulation tools have thus far limited their applications to one-dimensional or small two-dimensional simulations. 
-We present a mixed-dimensional model structure for efficiently simulating surface/subsurface thermal hydrology in low-relief permafrost regions at watershed scales. The approach solves an operator-split system, sequentially coupling a two-dimensional surface thermal hydrology system with a family of one-dimensional vertical columns, where each column represents a fully coupled surface/subsurface thermal hydrology system without lateral flows. The overland thermal hydrology system with no sources acts to redistribute mass and energy horizontally by updating the column systems before they advance in time. We show that the approach is highly scalable, supports subcycling of different processes, and compares well with the corresponding fully three-dimensional representation at significantly less computational cost. These advances enable state-of-the-art representations of freezing soil physics to be coupled with thermal overland flow and surface energy balance at scales of 100s of meters. Although developed and demonstrated for permafrost thermal hydrology, the mixed-dimensional model structure is applicable to integrated surface/subsurface thermal hydrology in general. 
+We present a mixed-dimensional model structure for efficiently simulating surface/subsurface thermal hydrology in low-relief permafrost regions at watershed scales.
+The approach simplifies the full three-dimensional system to a two-dimensional overland thermal hydrology system with a family of one-dimensional vertical columns, where each column represents a fully coupled surface/subsurface thermal hydrology system without lateral flow.
+The overland thermal hydrology system is then operator split, incrementally updating lateral surface fluxes with no sources to redistribute mass and energy horizontally, followed and update including sources and sinks to couple to the columns.
+We show that the approach is highly scalable, supports subcycling of different processes, and compares well with the corresponding fully three-dimensional representation at significantly less computational cost. These advances enable state-of-the-art representations of freezing soil physics to be coupled with thermal overland flow and surface energy balance at scales of 100s of meters.
+Although developed and demonstrated for permafrost thermal hydrology, the mixed-dimensional model structure is applicable to integrated surface/subsurface thermal hydrology in general. 
 \end{abstract}
 
 \begin{keyword}
@@ -113,7 +117,7 @@ Amanzi, and by extension ATS, uses the Trilinos ~\cite{michael2003trilinos} fram
 
 \section{Motivation: Results from Fine-scale Simulations}\label{motivation}
 
-This mixed-dimensional approach is motivated by the results of fine-scale, two-dimensional simulations on vertical cross-sections across ice-wedge polygons at the Barrow Environmental Observatory. The simulations coupled a surface energy balance model with and without snow, snow distribution models, models for thermal overland flow including phase change, and a recently developed three-phase subsurface thermal hydrology model. The soil properties were calibrated against borehole temperature data in a previous study~\cite{atchley2015}. The simulations were forced with meteorological data for the site. Those simulations used an unstructured mesh that conforms to surface topography derived from lidar measurements. Horizontal mesh resolution is approximately 0.25 m. Vertical resolution is 0.02 cm at the surface and gradually increases with depth. Details on boundary conditions and the spinup process can be found in \cite{spainter2016integrated}. 
+This mixed-dimensional approach is motivated by the results of fine-scale, two-dimensional simulations on vertical cross-sections across ice-wedge polygons at the Barrow Environmental Observatory. The simulations coupled a surface energy balance model potentially including snow, snow distribution models, models for thermal overland flow including phase change, and a recently developed three-phase subsurface thermal hydrology model. The soil properties were calibrated against borehole temperature data in a previous study~\cite{atchley2015}. The simulations were forced with meteorological data for the site. Those simulations used an unstructured mesh that conforms to surface topography derived from lidar measurements. Horizontal mesh resolution is approximately 0.25 m. Vertical resolution is 0.02 cm at the surface and gradually increases with depth. Details on boundary conditions and the spinup process can be found in \cite{spainter2016integrated}. 
 
 Snapshots of ice and liquid saturation indices in cross-section across two ice-wedge polygons are shown in Fig.~\ref{oct15}. These snapshots are for October 15, 2013, which is during the fall freeze-up. During this period, the rims of the ice-wedge polygons are significantly colder than the centers and troughs because the thermally insulating snowpack is smaller on the rims. Previous one-dimensional simulations~\cite{atchley2016} have shown that thermal differences caused by differences in snow depth lead to differences in active layer thickness, the depth of the annual thaw. However, in the two-dimensional simulations shown here, the active layer thickness shows little variation across the polygon (Fig.~\ref{alt}). Although transient differences in subsurface temperature occur due to differences in snow depth, soil moisture content, and albedo, lateral heat transport is sufficient to equilibrate those differences by the time of maximum thaw. Thus, the active layer thickness, which is a primary control on the annual carbon decomposition rates, is not directly affected by microtopographic position within an ice-wedge polygon in cases where organic matter is relatively uniform. This lack of sensitivity suggests a model structure where the ice-wedge polygon becomes the unit computational cell on the surface. 
 
@@ -132,24 +136,62 @@ Snapshots of ice and liquid saturation indices in cross-section across two ice-w
 \end{figure}
 
 
-
-
 \section{An Intermediate-scale Model}\label{mixed-dim-model}
+Recognizing the lack of sensitivity to lateral, subsurface flow described above, we derive an intermediate-scale model to leverage this simplification.
+This model has two components: a spatial structure that combines one-dimensional and two-dimensional domains, and an operator splitting scheme that decouples the columns by solving lateral flow on the surface system independently of the sources and sinks of mass and energy which couple the surface and subsurface systems.
+We describe those aspects in this section, followed by a discussion of the refactoring strategy used to implement this model within the ATS.
 
-Our intermediate-scale model has two components: a spatial structure that combines one-dimensional and two-dimensional domains, and an operator splitting scheme for coupling. We describe those aspects in this section followed by the 
- refactoring strategy of the ATS.
 \subsection{Mixed-Dimensional Modeling Approach}
-
-Our modeling strategy splits a 3D domain into $2N + 1$ subdomains, where $N$ is the total number of surface elements.  The workflow starts with a two-dimensional tessellation of the land surface, where each polygon in the surface mesh corresponds to an ice-wedge polygon. Standard mesh generation tools are then used to construct a 3D mesh by extruding each of the surface polygons vertically into the subsurface. This 3D mesh represents the entire domain of interest and is referred to as the primary mesh. Within ATS, the 3D primary mesh is then subdivided into $2N+1$ submeshes, where $N$ is the total number of surface elements. The total $2N+1$ subdomains include $N$ subdomains for 1D subsurface columns (on which flow and energy equations are solved), $N$ subdomains as the surface of those columns (on which surface water and energy storage is tracked along with a surface energy balance calculation), and one subdomain for the 2D overland system, on which lateral surface flow is solved.  To avoid confusion, hereafter the 2D overland flow system is referred to as an overland system, and the surface cell of each 1D columns will be called a column-surface system. The 1D columns and overland system are highlighted in Fig.~\ref{surf-cols}. Arcos represents physics on these domains as a hierarchical PK tree which shows how the processes are coupled on and across these domains, as illustrated in Fig.~\ref{pk-tree}. The PK tree consists of individual conservation equations, strong (globally implicit) couplers, and weak (sequential) couplers highlighted in blue, light cyan, and orange colors, respectively. In our approach, the interaction at the interface between the overland and 1D columns happens at the top level weak MPC. The strong MPC (on the left at the second level) is the overland system. The weak MPC at the second level iterates over all the column subdomains. The PK-I, I $=1,2,3, \dots, N$ denote an integrated system composed of surface energy balance, column-surface (a cell) and subsurface (1D column) system. The tree attached to the black octagon shape is replicated across all PK-I, I $=1,2,3, \dots, N$.
-
+To build an intermediate scale model, we first tessellate the land surface into $N$ surface cells, where each cell in the surface mesh corresponds to an ice-wedge polygon.
+Custom mesh generation tools are then used to construct a 3D mesh by extruding each of the surface polygons vertically into the subsurface, introducing soil layering, etc.
+This 3D mesh represents the entire domain of interest and is referred to as the primary mesh.
+For the purpose of this model, each tesselated ice-wedge polygon, along with the volume of soil directly below it, is extracted as a single, one-dimensional (in the z-direction), column of soil.
+On each column, vertical flow of mass and transport of energy are solved, and on each column's surface, a (local) surface balance is performed to determine the net source of mass and energy into the system.
+These columns are then coupled through lateral surface flow, which quickly moves water and energy throughout the domain.
+We note that strong (globally implicit) coupling of the surface-to-subsurface fluxes are critically important for mass and energy conservation and accuracy of the system through strong nonlinearities.
+%
 \begin{figure}[!htpb]
 \centering
 \includegraphics[height = 7.5cm, width=10cm]{figures/mixed-dim-model.png}
-\caption{An illustration of the independent 1D subsurface columns coupled to the overland system. The column-surface system (1D cells lying on the top of corresponding columns) are not shown.}
+\caption{An illustration of the independent 1D subsurface columns coupled to the overland system.}
 \label{surf-cols}
 \end{figure}
 
+\subsection{Operator Splitting Scheme}
+Due to this needed strong coupling between the surface and subsurface, the above mixed-dimensional strategy alone still results in a computational expensive system of equations.
+The tight coupling results in the need to solve all the columns and the surface flow equations simultaneously.
+To break this system, we develop a two-stage operator-split strategy for the surface flow and energy equations.
+Under this strategy, we split the lateral fluxes from the coupling fluxes, incrementally advancing one and then the other.
+In the first stage of the splitting, lateral fluxes are allowed to redistribute water and energy across the surface domain with no sources or sinks.
+This stage is hereafter called the ``overland system.''
+Then, in a second update, the coupling fluxes and columnar subsurface may be solved implicitly, but independently of every other column.
+Each column consists then of the subsurface thermal hydrology, surface energy balance, and surface ponding and energy exchange fluxes with no lateral flow.
+This stage is hereafter called the ``column-surface system.''
+This splitting is shown schematically in Fig.~\ref{coupling-schematic}.
+For the sake of clarity, we will refer to the pressure and temperature fields after the first stage as ``overland-flow'' pressure and temperature, while those after the second step will be called ``subsurface'' and ``column-surface'' pressures and temperatures.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[height = 6.5cm, width=11cm]{figures/Figure5-new.jpg}
+\caption{Schematic of the operator splitting scheme for our mixed-dimensional model.}
+\label{coupling-schematic}
+\end{figure}
 
+
+%\textbf{Refer to some published work related to mixed-dimensional modeling.}
+
+\subsection{Model Implementation with ATS and Arcos}
+This implementation of this strategy requires significant software infrastructure and refactoring support.
+First, and not trivially, physics and simulation data must be entirely modular and encapsulated, so that multiple instances of each physics process can be instantiated, allowing seperate solution on multiple domains.
+Next, coupling these many processes on many domains requires a flexible, hierarchical coupling framework.
+Much of this was supported by Amanzi-ATS's multiphysics library, Arcos\cite{ecoon2016managing}.
+Arcos represents physics on these domains as a hierarchical PK tree which shows how the processes are coupled on and across these domains, as illustrated in Fig.~\ref{pk-tree}.
+The PK tree consists of individual conservation equations, strong (globally implicit) couplers, and weak (sequential) couplers highlighted in blue, light cyan, and orange colors, respectively.
+In our approach, the operator splitting between the overland and column-surface systems happens at the top level weak MPC.
+The strong MPC (on the left at the second level) is the overland system; the weak MPC at the second level iterates over all the column subdomains.
+The PK-I, I $=1,2,3, \dots, N$ denote an integrated system composed of surface energy balance, column-surface (a single cell for coupling fluxes) and subsurface (1D column) system.
+The tree attached to the black octagon shape is replicated across all PK-I, I $=1,2,3, \dots, N$.
+%
 \begin{figure}[!htpb]
 \centering
 \includegraphics[height = 7.5cm, width=11cm]{figures/process-tree1.png}
@@ -157,24 +199,8 @@ Our modeling strategy splits a 3D domain into $2N + 1$ subdomains, where $N$ is 
 \label{pk-tree}
 \end{figure}
 
-
-\subsection{Operator Splitting Scheme}
-The operator splitting scheme for advancing our mixed-dimensional model is a two-step sequential algorithm. First, we solve the overland-flow thermal hydrology system without any external or exchanged sources and then compute the solution of the one-dimensional columns. Each 1D column is a system of the subsurface thermal hydrology, surface energy balance, and surface ponding and energy exchange with no lateral flow. The first step mainly acts as a spatial distributor of the mass and energy. That is, it distributes the water and energy across the 2D overland system, and its solution serves as initial condition for the second step. After the update from the first step, we solve the family of 1D columns, and use the output of that half-step to update the overland-flow pressure and temperature for the next iteration in the algorithm. As depicted in Fig.~\ref{coupling-schematic}, the top and bottom orange spots represent 2D overland-flow system and 1D columns, respectively, and the cyan colors (in the middle) are intermediate steps for updating overland-flow and 1D column systems. For the sake of clarity, we will refer to the pressure and temperature fields of the first step as overland-flow pressure and temperature, while that of the second step will be called as subsurface and column-surface pressures and temperatures.
-
-
-%\textbf{Refer to some published work related to mixed-dimensional modeling.}
-
-\begin{figure}[h]
-\centering
-\includegraphics[height = 6.5cm, width=11cm]{figures/Figure5-new.jpg}
-\caption{Schematic of the loosely coupled scheme for our mixed-dimensional model. Orange represents advancement of PKs in time; blue shows intermediate steps for initialization of PKs within a single time step.}
-\label{coupling-schematic}
-\end{figure}
-
-
-\subsection{ATS Refactoring Strategy}
-The ATS was significantly refactored to accommodate the above customized scheme.
-Arcos's state object stores a dynamic, runtime-determined set of simulation data.
+Refactoring of both ATS and its use of Arcos were needed to implement this strategy.
+To manage data encapsulation and replication, Arcos's state object stores a dynamic, runtime-determined set of simulation data.
 Each data is identified by a unique key, e.g. ``ponded\_depth'', and a set of metadata including domain of applicability, mesh entity, number of degrees of freedom, etc.
 In order for each PK to be instantiated multiple times, that PK's data was altered to enforce uniqueness of its keys by prefixing a domain identifier such as ``column\_0\_surface-ponded\_depth''.
 This refactoring allows multiple instances of any given PK, each attached to a different mesh representing a subdomain of the primary mesh.
@@ -187,12 +213,12 @@ At run-time, columns can then be identified, and extracted to form a one-dimensi
 This mesh is altered to ensure it is a one-dimensional submanifold of three-dimensional space, i.e. each cell has two faces, and all face-normals are $\pm \hat{z}$.
 Once this is done, Amanzi-ATS's existing operators can work on this mesh without changes.
 Furthermore, this mesh follows polygonal ground, and therefore consists of stacked polygonal-prisms.
-Few mesh capabilities support this fully-unstructured mesh type; a Silo\cite{silo} capability was added to to Amanzi-ATS's existing output options to enable visualization of the resulting solution.
+Few mesh and visualization libraries or utilities support this fully-unstructured mesh type; a Silo\cite{silo} capability was added to to Amanzi-ATS's existing output options to enable visualization of the resulting solution.
 
 Each of these refactors was accomplished in reasonable time thanks to a close adherance to computational software best practices.
 A series of unit and regression tests were added for each new capability, and the existing regression tests were updated with the domain prefixes.
 Version control enabled close collaboration on this process across multiple developers, and project-management Kanban tools were used to ensure each developer in the workflow knew the needs of the client code component.
-These best practices, along with the use of libraries such as Silo, MSTK, and Arcos, greatly improved the efficiency of what otherwise would have been a significant development effort.
+These best practices, along with the use of libraries such as Silo, MSTK, and Arcos, greatly improved the efficiency of what otherwise would have been a difficult development effort.
 
 \section{Results and Discussions}\label{numerical-tests}
 
