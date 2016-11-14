@@ -231,7 +231,7 @@ To demonstrate the accuracy of our modeling technique, we compare numerical resu
 \centering
 %\includegraphics[height = 5.5cm, width=9cm]{figures/surface-locations.png}
 \includegraphics[height = 6.5cm, width=11cm]{figures/lobster75-3d.png}
-\caption{An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Lowest elevation spot.}
+\caption{An illustration of the five spatial locations on 75 polygons cluster for location-based comparison of the two schemes. Location 1: Outlet. Location 2: High elevated spot. Location 3-4: Intermediate elevation spots. Location 5: Low elevation spot.}
 \label{surf-location}
 \end{figure}
 
@@ -239,11 +239,11 @@ In addition to evaluating the quality of our mixed-dimensional approach for the 
 \begin{equation}\label{formula-exagg}
 \bar{Z} =  \alpha (Z - \mu) + \mu.
 \end{equation}
-Here $\bar{Z}$ is the exaggerated elevation, $Z$ is the original elevation with mean $\mu$, and $\alpha$ is the exaggeration parameter. Equation~(\ref{formula-exagg})  preserves the mean while the standard deviation depends on the value of $\alpha$ and is given in meters by $0.14 \alpha$. The coefficient in front of $\alpha$ is the standard deviation of the original elevation $Z$ -- in our case $Z$ correspond to the domain shown in Fig.~\ref{surf-location}. Our three variants correspond to $\alpha=1,3,$ and $5$. The value $\alpha=1$ corresponds to the original topography. We expect the model to give promising results for simulating low-gradient polygonal tundra, and believe that the values of $\alpha$ we choose provide sufficient variation across a domain of 100s of meter. 
+Here $\bar{Z}$ is the exaggerated elevation, $Z$ is the original elevation with mean $\mu$, and $\alpha$ is the exaggeration parameter. Equation~(\ref{formula-exagg})  preserves the mean while the standard deviation depends on the value of $\alpha$ and is given in meters by $0.14 \alpha$. The coefficient in front of $\alpha$ is the standard deviation of the original elevation $Z$ -- in our case $Z$ correspond to the domain shown in Fig.~\ref{surf-location}. Our three variants correspond to $\alpha=1,3,$ and $5$. The value $\alpha=1$ corresponds to the original topography with percentage slope (between the highest and lowest elevation spots) of 0.37. The percentage slope increases from 0.37 to 1.1 and 1.85 for $\alpha =3,$ and $5$, respectively. We expect the model to give promising results for simulating low-gradient polygonal tundra, and believe that the values of $\alpha$ we choose provide sufficient variation across a domain of 100s of meter.  \\
 Our numerical experiments confirm a high agreement between the results of the mixed-dimensional model and the 3D model at all selected location for all three $\alpha$ values. Figs.~\ref{ss-sat-comp} and~\ref{ss-temp-comp} compare the subsurface water saturations and temperatures, respectively, at locations 1 and 5 and for $\alpha=1$. The accuracy of our results for the Barrow topography ($\alpha=1$) is evident. The surface ponded depths and temperatures obtained with the two models are depicted in Fig.~\ref{surf-pd-comp} and~\ref{surf-temp-comp}, respectively. As expect, our results fit the 3D model's results very well. We see the same level of agreement at the other locations as well, but we are not showing them here.
 %The root mean square difference in the subsurface water saturations of the two models of study-I, II, and III are shown in Fig.~\ref{error-plots}.
 In Fig.~\ref{thaw-depth} we plot the mean annual thaw depth at five locations for the three variants, $\alpha =1, 3,$ and $5$. We use the annual mean of the thaw depth rather than the maximum thaw depth (i.e. the active layer thickness) because the mean annual thaw depth depends on both the duration of thaw and maximum thaw depth. Thus it is a direct measure of soil available for decomposition, averaged over the year. 
-Not surprisingly, as the value of $\alpha$ increases the mean annual thaw depth deviates from the results of the 3D model to some extent, but we still see the results of the mixed-dimensional model agree well with to the corresponding benchmark solution. The consistency of our numerical results with the fully coupled 3D simulations confirm the appropriateness of this approximated scheme. 
+Not surprisingly, as the value of $\alpha$ increases the mean annual thaw depth deviates from the results of the 3D model to some extent, but we still see the results of the mixed-dimensional model agree well with the corresponding benchmark solution. The consistency of our numerical results with the fully coupled 3D simulations confirm the appropriateness of this approximated scheme. 
 
 
 
@@ -321,7 +321,6 @@ Not surprisingly, as the value of $\alpha$ increases the mean annual thaw depth 
 \label{barrow-pd-temp}
 \end{figure}
 
-%\todo{should we provide a Table describing Parameters used in the simulations}
 
 \subsection{Speedup Study}
 We discuss speedup and parallel efficiency for two spatial domains, one with 75 polygons as depicted in Fig.~\ref{surf-location} and a larger one consisting of 468 ice-wedge polygons, as shown in Fig~\ref{barrow-468}. The surface ponded depth and temperature during the snowmelt in 2012 are presented in Fig.~\ref{barrow-pd-temp} for the 468 polygon domain. Fully coupled 3D simulations at such a scale are computationally very expensive.
@@ -385,7 +384,9 @@ Although we mainly focus on simulating the thermal hydrology of degrading permaf
 
 \section*{Acknowledgments} 
 
-This work was supported by Interoperable Design of Extreme-scale Application Software (IDEAS) project and by the Next Generation Ecosystem Experiment(NGEE-Arctic) project. NGEE-Arctic is supported by the Office of Biological and Environmental Research in the DOE Office of Science. We are alsograteful to Jitu Kumar, Lauren Charsley-Groffman, Terry Miller, Garrett Altman and Lucia Short  for help in constructing computational meshes. 
+This work was supported by Interoperable Design of Extreme-scale Application Software (IDEAS) project and by the Next Generation Ecosystem Experiment
+(NGEE-Arctic) project. NGEE-Arctic is supported by the Office of Biological and Environmental Research in the DOE Office of Science. We are also
+grateful to Jitu Kumar, Lauren Charsley-Groffman, Terry Miller, Garrett Altman and Lucia Short  for help in constructing computational meshes. 
 
 %\section{Bibliography styles}
 
